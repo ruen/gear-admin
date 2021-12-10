@@ -24,11 +24,7 @@ develop:
     developers’ programming language of choice.
 
 
-
-
     As a result, Gear provides a low barrier of entry for developers who are new to blockchain, and makes it much easier to experiment creatively with smart contracts.
-
-
 
 
     Gear’s smart contract architecture uses the actor model under the hood, and provides:
