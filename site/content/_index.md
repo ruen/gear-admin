@@ -19,13 +19,17 @@ about:
 develop:
   heading: Easy to develop
   text: >-
-    * The main engine of the Gear network is its smart contract module. With
-    Gear, all smart contracts are WebAssembly programs that can be compiled in
-    the developers’ programming language of choice.
+    ```html
 
-      As a result, Gear provides a low barrier of entry for developers who are new to blockchain, and makes it much easier to experiment creatively with smart contracts.
+    <p>The main engine of the Gear network is its smart contract module. With Gear, all smart contracts are WebAssembly programs that can be compiled in the developers’ programming language of choice.</p>
 
-      Gear’s smart contract architecture uses the actor model under the hood, and provides:
+
+    <ul><li>As a result, Gear provides a low barrier of entry for developers who are new to blockchain, and makes it much easier to experiment creatively with smart contracts.</li></ul>
+
+
+    Gear’s smart contract architecture uses the actor model under the hood, and provides:
+
+    ```
 products:
   - text: Persistent memory for immutable programs
     image: img/about-section-icon-1.png
