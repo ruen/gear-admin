@@ -1,18 +1,20 @@
-<div class="pv5 pv6-l ph3 bg-center cover" style="background-image: url('{{.imageUrl}}')">
-  <div class="mw7 center ph3">
-    <div class="db mb3">
-      <div class="mw7 relative bg-fix-primary mb3">
-        <h1 class="f2 f1-l b di lh-title mb3 white mw6 bg-primary">
-          {{.title}}
-        </h1>
-      </div>
-      <div class="mw7 relative bg-fix-primary">
-        {{ if .subtitle }}
-        <p class="b f4 di lh-title mb3 white mw6 bg-primary">
-          {{.subtitle}}
-        </p>
-        {{ end }}
-      </div>
+<!-- top section -->
+<section class="top-section d-flex flex-column justify-content-center align-items-center">
+  <div class="container">
+    <header>
+      <h1>{{.title}}</h1>
+      {{ if .subtitle }}
+        <p>{{.subtitle}}</p>
+      {{ end }}
+    </header>
+    <div class="video-box">
+      <a data-fancybox="video-gallery" data-src="https://www.youtube.com/embed/m8FqprMPzh0"><img src="/img/video-image.jpg" alt=""></a>
     </div>
+    <div class="buttons-line">
+      <a href="https://idea.gear-tech.io" target="_blank" class="btn btn-success mx-2">Build Now</a>
+      <a href="#community" class="btn btn-light mx-2 anchor">Join Our Community</a>
+    </div>
+    <div class="arrow"></div>
   </div>
-</div>
+</section>
+<!-- end top section -->
