@@ -1,8 +1,10 @@
-<a href="{{ .RelPermalink }}">
-	<span class="label">{{ .Description }}</span>
-	<figure><img src="img/news-image-9.jpeg" alt=""></figure>
-	<span class="info">
-		<span class="title">{{ .Title }}</span>
-		<span class="date">{{ .Date.Format "Mon, Jan 2, 2006" }}</span>
-	</span>
-</a>
+<article class="event-box">
+	<a href="{{ .RelPermalink }}">
+		<span class="label">{{ .Description }}</span>
+		<figure><img src="img/news-image-9.jpeg" alt=""></figure>
+		<span class="info">
+			<span class="title">{{ .Title }}</span>
+			<span class="date">{{ .Date.Format "Mon, Jan 2, 2006" }}</span>
+		</span>
+	</a>
+</article>
