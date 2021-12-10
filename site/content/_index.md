@@ -19,15 +19,15 @@ about:
 develop:
   heading: Easy to develop
   text: >-
-    `<p>The main engine of the Gear network is its smart contract module. With
-    Gear, all smart contracts are WebAssembly programs that can be compiled in
-    the developers’ programming language of choice.</p>`
+    The main engine of the Gear network is its smart contract module. With Gear,
+    all smart contracts are WebAssembly programs that can be compiled in the
+    developers’ programming language of choice.
 
 
-    `<p>As a result, Gear provides a low barrier of entry for developers who are new to blockchain, and makes it much easier to experiment creatively with smart contracts.</p>`
+    As a result, Gear provides a low barrier of entry for developers who are new to blockchain, and makes it much easier to experiment creatively with smart contracts.
 
 
-    `<p>Gear’s smart contract architecture uses the actor model under the hood, and provides:</p>`
+    Gear’s smart contract architecture uses the actor model under the hood, and provides:
 products:
   - text: Persistent memory for immutable programs
     image: img/about-section-icon-1.png
@@ -38,19 +38,19 @@ products:
 scale:
   heading: " Easy to scale"
   text: >-
-    Conventional methods of launching dApps on the Polkadot ecosystem require
-    developers to either launch on a pre-existing parachain, or successfully
-    become a parachain themselves. The difficulty with becoming a Polkadot
-    parachain is that there is an extremely high entry cost, as thousands of
-    projects are competing against each other to win one of a limited number of
-    slots. On top of that deploying as a parachain can be very time consuming,
-    and in some cases it can even take up to a year!
+    `<p>Conventional methods of launching dApps on the Polkadot ecosystem
+    require developers to either launch on a pre-existing parachain, or
+    successfully become a parachain themselves. The difficulty with becoming a
+    Polkadot parachain is that there is an extremely high entry cost, as
+    thousands of projects are competing against each other to win one of a
+    limited number of slots. On top of that deploying as a parachain can be very
+    time consuming, and in some cases it can even take up to a year!</p>`
 
 
-    However by deploying with Gear, developers can launch their dApps easily & efficiently and enter the highly interoperable Polkadot ecosystem without having to win an auction or become a parachain. This means that developers can launch on the powerful Polkadot network without the significant financial and time expenses that are normally required.
+    `<p>However by deploying with Gear, developers can launch their dApps easily & efficiently and enter the highly interoperable Polkadot ecosystem without having to win an auction or become a parachain. This means that developers can launch on the powerful Polkadot network without the significant financial and time expenses that are normally required.</p>`
 
 
-    Gear makes deploying your dApps cheap, fast and efficient.
+    `<p>Gear makes deploying your dApps cheap, fast and efficient.</p>`
 cases:
   heading: Use Cases
   text: While we’re just scratching the surface of what this technology can do,
