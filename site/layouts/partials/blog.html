@@ -4,7 +4,7 @@
 		<h2 id="events">Latest News & events</h2>
 	</div>
 	<div class="news-carousel">
-		{{ range first 4 (where .Data.Pages "Type" "post") }}
+		{{ range (where .Data.Pages "Type" "post") }}
 			{{ .Render "li" }}
 		{{ end }}
 	</div>
