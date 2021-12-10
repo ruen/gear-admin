@@ -37,7 +37,7 @@ products:
     text: A minimal, intuitive, and sufficient API surface for blockchain context
 scale:
   heading: " Easy to scale"
-  text: <p>Conventional methods of launching dApps on the Polkadot ecosystem
+  text: "`<p>Conventional methods of launching dApps on the Polkadot ecosystem
     require developers to either launch on a pre-existing parachain, or
     successfully become a parachain themselves. The difficulty with becoming a
     Polkadot parachain is that there is an extremely high entry cost, as
@@ -50,7 +50,7 @@ scale:
     that developers can launch on the powerful Polkadot network without the
     significant financial and time expenses that are normally
     required.</p><p>Gear makes deploying your dApps cheap, fast and
-    efficient.</p>
+    efficient.</p>`"
 cases:
   heading: Use Cases
   text: While we’re just scratching the surface of what this technology can do,
