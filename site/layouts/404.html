@@ -1,6 +1,32 @@
 {{ define "main" }}
 
-<h1>Nothing Here...</h1>
-<h3><a href="{{ "/" | relURL }}">Go Home</a></h3>
+<!-- error page -->
+<section class="error-page">
+    <div class="container">
+
+        <div class="error-info card d-flex flex-column justify-content-center align-items-center">
+            <figure>
+                <img src="/img/error-404-image.png" class="card-img-top" />
+                <img src="/img/error-404-image.png" class="card-img-top" />
+                <img src="/img/error-404-image.png" class="card-img-top" />
+            </figure>
+            <div class="card-body text-center p-0">
+                <div class="stack" style="--stacks: 3;">
+                    <h3 style="--index: 0;">Something went wrong</h3>
+                    <h3 style="--index: 1;">Something went wrong</h3>
+                    <h3 style="--index: 2;">Something went wrong</h3>
+                </div>
+                <div class="stack" style="--stacks: 3;">
+                    <p style="--index: 0;">Ooops! Page not found.</p>
+                    <p style="--index: 1;">Ooops! Page not found.</p>
+                    <p style="--index: 2;">Ooops! Page not found.</p>
+                </div>
+                <a href="{{ "/" | relURL }}" class="btn btn-light btn-md mt-xl-4 mt-lg-4 mt-md-4 mt-sm-4 mt-2">Back to homepage</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- end error page -->
 
 {{ end }}
