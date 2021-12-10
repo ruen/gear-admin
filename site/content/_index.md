@@ -38,7 +38,7 @@ products:
 scale:
   heading: " Easy to scale"
   text: >-
-    ```
+    ```html
 
     <p>Conventional methods of launching dApps on the Polkadot ecosystem require developers to either launch on a pre-existing parachain, or successfully become a parachain themselves. The difficulty with becoming a Polkadot parachain is that there is an extremely high entry cost, as thousands of projects are competing against each other to win one of a limited number of slots. On top of that deploying as a parachain can be very time consuming, and in some cases it can even take up to a year!</p>
 
