@@ -6,10 +6,10 @@
 
 {{ partial "about" .Params.about}}
 
-{{ partial "short-text" .Params.blurb}}
+{{ partial "easy-develop" .Params }}
 
-{{ partial "2-up" .Params }}
+{{ partial "easy-scale" .Params.scale}}
 
-{{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Read more" "buttonLink" "/values") }}
+{{ partial "use-cases" .Params.cases}}
 
 {{ end }}
