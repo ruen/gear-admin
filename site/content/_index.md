@@ -54,6 +54,20 @@ intro:
     java’s origin and support the farmers that grew it. We take coffee
     production, roasting and brewing seriously and we’re glad to pass that
     knowledge to anyone.
+text: >-
+  Conventional methods of launching dApps on the Polkadot ecosystem require
+  developers to either launch on a pre-existing parachain, or successfully
+  become a parachain themselves. The difficulty with becoming a Polkadot
+  parachain is that there is an extremely high entry cost, as thousands of
+  projects are competing against each other to win one of a limited number of
+  slots. On top of that deploying as a parachain can be very time consuming, and
+  in some cases it can even take up to a year!
+
+
+  However by deploying with Gear, developers can launch their dApps easily & efficiently and enter the highly interoperable Polkadot ecosystem without having to win an auction or become a parachain. This means that developers can launch on the powerful Polkadot network without the significant financial and time expenses that are normally required.
+
+
+  Gear makes deploying your dApps cheap, fast and efficient.
 blurb:
   heading: Why Kaldi?
   text: Kaldi is the coffee store for everyone who believes that great coffee
