@@ -5,7 +5,11 @@
 	</div>
 	<div class="news-carousel">
 		{{ range (where .Data.Pages "Type" "post") }}
-			{{ .Render "li" }}
+			{{ .Render "news-technicals" }}
+		{{ end }}
+
+		{{ range (where .Data.Pages "Type" "post") }}
+			{{ .Render "news-uploades" }}
 		{{ end }}
 	</div>
 	<div class="container">
