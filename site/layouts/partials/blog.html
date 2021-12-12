@@ -5,7 +5,7 @@
 	</div>
 	<div class="news-carousel">
 		{{ range (where .Data.Pages "Type" "post") }}
-			{{ .Render "li" }}
+			{{ .Render "news-box" }}
 		{{ end }}
 	</div>
 	<div class="container">
