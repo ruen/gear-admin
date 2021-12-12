@@ -20,7 +20,7 @@
 
             {{ range (.Paginator 4).Pages.ByPublishDate.Reverse }}
             <div class="col-xl-4 col-lg-6 col-md-6 mb-4">
-              {{ .Render "li"}}
+              {{ .Render "news-technicals"}}
             </div>
             {{ end }}
 
@@ -28,6 +28,7 @@
         </div>
         <div class="tab-pane fade" id="nav-technical" role="tabpanel" aria-labelledby="nav-technical-tab">
           <div class="events-list row">
+              {{ .Render "news-technicals"}}
           </div>
         </div>
         <div class="tab-pane fade" id="nav-updates" role="tabpanel" aria-labelledby="nav-updates-tab">
