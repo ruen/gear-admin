@@ -1,5 +1,5 @@
 <article class="event-box">
-	{{ range (where .News Updates "post") }}
+	{{ range (where .News Updates) }}
 	<a href="{{ .RelPermalink }}">
 		<span class="label">{{ .Description }}</span>
 		<figure>{{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}</figure>
