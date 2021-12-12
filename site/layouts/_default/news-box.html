@@ -1,6 +1,4 @@
-
-
-{{ range (where .Pages "post" "news-technicals") }}
+{{ range (where .Pages "post/news-technicals") }}
 <a href="{{ .RelPermalink }}">
 	<span class="label">{{ .Description }}</span>
 	<figure>{{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}</figure>
