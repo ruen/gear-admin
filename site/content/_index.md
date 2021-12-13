@@ -55,6 +55,10 @@ cases:
   heading: Use Cases
   text: While we’re just scratching the surface of what this technology can do,
     here are a few ways people are using Gear.
+community:
+  heading: Join The Gear Community
+  text: Connect with one of the fastest growing communities of developers and
+    innovators all over the world that are building the new era of the internet.
 intro:
   heading: What we offer
   text: Kaldi is the ultimate spot for coffee lovers who want to learn about their
