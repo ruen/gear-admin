@@ -2,7 +2,7 @@
 title: Why Gear uses WebAssembly
 date: 2021-10-29T15:05:04.799Z
 text: https://medium.com/@gear_techs/why-gear-uses-webassembly-35b705341241
-description: Gear Technologies
+description: Technologies
 image: img/news-image-3.jpeg
 ---
 **Overview**
