@@ -3,7 +3,7 @@ title: GEAR online workshop in the United States
 date: 2021-10-27T14:49:10.804Z
 text: https://medium.com/@gear_techs/gear-online-workshop-in-the-united-states-6b3c17eb8cec
 description: Gear Technologies
-image: img/uploads/news-image-4.jpeg
+image: img/news-image-4.jpeg
 ---
 Following our first offline workshop in Russia, our team recently held the first online workshop in the United States, where students from the Computer Science and Engineering Society of the University of California San Diego were introduced to GEAR’s technology.
 
