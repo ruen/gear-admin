@@ -2,6 +2,7 @@
 title: "Gear Monthly Updates: November"
 date: 2021-12-06T12:01:02.393Z
 description: Gear Updates
+text: https://medium.com/@gear_techs/gear-monthly-updates-november-a9c820ef057a
 image: img/news-image-10.jpeg
 ---
 As we approach the end of the year, our hectic schedule becomes tighter and tighter.
