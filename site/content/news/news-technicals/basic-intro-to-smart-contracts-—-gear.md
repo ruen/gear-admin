@@ -2,8 +2,8 @@
 title: Basic Intro To Smart Contracts — Gear
 date: 2021-11-08T16:06:19.133Z
 text: https://medium.com/@gear_techs/basic-intro-to-smart-contracts-gear-a831680062c0
-description: Gear Technologies
-image: img/uploads/news-image-2.jpeg
+description: Technologies
+image: img/news-image-2.jpeg
 ---
 **A very short history of blockchain technology**
 
