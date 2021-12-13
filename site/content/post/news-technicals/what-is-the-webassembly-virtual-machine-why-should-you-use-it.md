@@ -1,6 +1,6 @@
 ---
 title: What is the WebAssembly Virtual Machine & Why should you use it?
-date: 2021-11-25T13:32:00.383Z
+date: 2021-10-25T12:32:00.383Z
 text: https://medium.com/@gear_techs/what-is-the-webassembly-virtual-machine-why-should-you-use-it-5bfa521e7880
 description: Gear Technologies
 image: img/news-image-5.jpeg
