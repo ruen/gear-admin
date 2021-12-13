@@ -4,7 +4,7 @@ title: Why The Polkadot Network Will Be Important For The Future Of Blockchain
 date: 2021-11-13T16:07:39.377Z
 text: https://medium.com/@gear_techs/why-the-polkadot-network-will-be-important-for-the-future-of-blockchain-technology-eb61f732fe9c
 description: Gear Technologies
-image: img/uploads/news-image-7.jpeg
+image: img/news-image-7.jpeg
 ---
 What is Polkadot?
 
