@@ -19,7 +19,7 @@
         <div class="tab-pane fade show active" id="nav-all" role="tabpanel" aria-labelledby="nav-all-tab">
           <div class="events-list row">
 
-            {{ range .Pages.ByPublishDate }}
+            {{ range .Pages.News-updates }}
             <div class="col-xl-4 col-lg-6 col-md-6 mb-4">
               {{ .Render "news-box"}}
             </div>
@@ -31,7 +31,7 @@
         <div class="tab-pane fade" id="nav-technical" role="tabpanel" aria-labelledby="nav-technical-tab">
           <div class="events-list row">
 
-            {{ range .Pages.ByPublishDate.Reverse }}
+            {{ range .Pages.Post }}
             <div class="col-xl-4 col-lg-6 col-md-6 mb-4">
               {{ .Render "news-box"}}
             </div>
@@ -43,7 +43,7 @@
         <div class="tab-pane fade" id="nav-updates" role="tabpanel" aria-labelledby="nav-updates-tab">
           <div class="events-list row">
 
-            {{ range .Pages.ByPublishDate.Reverse }}
+            {{ range .Pages.Post }}
             <div class="col-xl-4 col-lg-6 col-md-6 mb-4">
               {{ .Render "news-box"}}
             </div>
