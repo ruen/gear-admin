@@ -27,7 +27,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Technologies", name: "description", widget: "text"}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "N"
+  - name: "post"
     label: "Post"
     folder: "site/content/post"
     create: true
