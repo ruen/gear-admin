@@ -9,8 +9,7 @@
         <div class="info col-xl-6 col-lg-6 col-md-6">
           <h3>{{.Title}}</h3>
           <div class="buttons-line d-flex align-items-center">
-            <a href="" target="_blank" class="btn btn-success">
-              {{ .Text }}
+            <a href="{{ .Description }}" target="_blank" class="btn btn-success">
               <span class="plus-icon">Read <span class="d-xl-inline d-lg-inline d-md-none d-sm-inline d-none">more</span></span>
             </a>
             <div class="social-links">
@@ -57,6 +56,7 @@
           <ul class="event-info-list">
             <li class="icon-1">News</li>
             <li class="icon-2">{{ .Date.Format "January 2" }}</li>
+            <li class="icon-3">{{ .Description }}</li>
           </ul>
         </div>
       </div>
