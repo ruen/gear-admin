@@ -1,5 +1,6 @@
 ---
 title: "GEAR Monthly Updates: October"
+date: 2021-10-30T10:59:34.325Z
 description: Gear Updates
 image: img/news-image-1.jpeg
 ---
