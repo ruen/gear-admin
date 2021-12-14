@@ -4,7 +4,7 @@
 		<h2 id="events">Latest News & events</h2>
 	</div>
 	<div class="news-carousel">
-		{{ range (.Paginator 4).Pages.ByPublishDate.Reverse }}
+		{{ range .Pages.ByPublishDate.Reverse }}
 		  {{ .Render "news-box"}}
 		{{ end }}
 	</div>
