@@ -33,7 +33,7 @@ collections: # A list of collections the CMS should be able to edit
 
   - name: "events-workshop"
     label: "Events Workshop"
-    folder: "site/content/events/events-workshop"
+    folder: "site/content/completed-events/events-workshop"
     create: true
     editor:
       preview: true
