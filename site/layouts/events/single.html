@@ -9,8 +9,8 @@
         <div class="info col-xl-6 col-lg-6 col-md-6">
           <h3>{{.Title}}</h3>
           <div class="buttons-line d-flex align-items-center">
-            <a href="{{ .Params.text }}" target="_blank" class="btn btn-success">
-              <span class="plus-icon">Read <span class="d-xl-inline d-lg-inline d-md-none d-sm-inline d-none">more</span></span>
+            <a href="{{ .Params.text }}" target="_blank" class="btn btn-success d-none">
+              <span class="plus-icon">Join <span class="d-xl-inline d-lg-inline d-md-none d-sm-inline d-none">workshop</span></span>
             </a>
             <div class="social-links">
               <a href="https://twitter.com/gear_techs" target="_blank" class="social-link">
@@ -43,18 +43,18 @@
       <div class="row">
         <div class="event-info-box col-xl-6 col-lg-6 col-md-6 pr-xl-4 pr-lg-4 pr-md-4">
           <div class="title-line">
-            <div class="title gray-text">Preview</div>
+            <div class="title gray-text">About event</div>
             <div class="line"></div>
           </div>
           {{ .Content }}
         </div>
         <div class="event-info-box col-xl-6 col-lg-6 col-md-6 pl-xl-4 pl-lg-4 pl-md-4">
           <div class="title-line">
-            <div class="title gray-text">News details</div>
+            <div class="title gray-text">Event details</div>
             <div class="line"></div>
           </div>
           <ul class="event-info-list">
-            <li class="icon-1">News</li>
+            <li class="icon-1">Workshop</li>
             <li class="icon-2">{{ .Date.Format "January 2" }}</li>
             <li class="icon-3">{{ .Description }}</li>
           </ul>
@@ -64,14 +64,11 @@
       <div class="events-list-block">
         <header>
           <div class="title-line">
-            <div class="title gray-text">Related news</div>
+            <div class="title gray-text">Related events</div>
             <div class="line"></div>
           </div>
-          <a href="news.html" class="btn btn-light btn-sm">Back to all news</a>
+          <a href="/events" class="btn btn-light btn-sm">Back to all events</a>
         </header>
-        <!-- <div class="button-line">
-          <a href="#" class="button">Show more</a>
-        </div> -->
       </div>
 
     </div>
