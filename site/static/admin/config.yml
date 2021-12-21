@@ -34,7 +34,6 @@ collections: # A list of collections the CMS should be able to edit
   - name: "events-workshop"
     label: "Events Workshop"
     folder: "site/content/events/events-workshop"
-    slug: "{{year}}-{{month}}-{{day}}_{{slug}}"
     create: true
     editor:
       preview: true
