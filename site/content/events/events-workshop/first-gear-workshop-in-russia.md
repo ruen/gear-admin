@@ -1,7 +1,7 @@
 ---
 title: First GEAR workshop in Russia
 date: 2021-10-15T07:40:00.000Z
-text: ewq
+text: s
 description: Workshop
 image: img/event-image-8.jpg
 ---
