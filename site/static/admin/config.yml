@@ -6,8 +6,6 @@ public_folder: "img"
 
 collections:
   - name: "news-updates" 
-  files:
-    - file: "site/layouts/news/news-list.html"
     label: "News Updates"
     folder: "site/content/news/news-updates"
     create: true
@@ -21,8 +19,6 @@ collections:
 
 
   - name: "news-technicals"
-  files:
-    - file: "site/layouts/news/news-list.html"
     label: "News Technicals"
     folder: "site/content/news/news-technicals"
     create: true
