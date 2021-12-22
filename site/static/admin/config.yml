@@ -19,6 +19,8 @@ collections: # A list of collections the CMS should be able to edit
 
 
   - name: "news-technicals"
+  files:
+      - file: "site/layouts/_default/news.html"
     label: "News Technicals"
     folder: "site/content/news/news-technicals"
     create: true
