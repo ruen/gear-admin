@@ -6,7 +6,6 @@ public_folder: "img"
 
 collections: # A list of collections the CMS should be able to edit
   - name: "news-updates" # Used in routes, ie.: /admin/collections/:slug/edit
-  - file: "site/layouts/_default/news-list.html"
     label: "News Updates" # Used in the UI, ie.: "New Post"
     folder: "site/content/news/news-updates" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
@@ -20,7 +19,6 @@ collections: # A list of collections the CMS should be able to edit
 
 
   - name: "news-technicals"
-  - file: "site/layouts/_default/news-list.html"
     label: "News Technicals"
     folder: "site/content/news/news-technicals"
     create: true
