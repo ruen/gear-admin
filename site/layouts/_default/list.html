@@ -19,7 +19,7 @@
         <div class="tab-pane fade show active" id="nav-all" role="tabpanel" aria-labelledby="nav-all-tab">
           <div class="events-list row">
 
-            {{ range .Pages.ByPublishDate.Reverse }}
+            {{ range (where .Pages "Section" "blog") }}
             <div class="col-xl-4 col-lg-6 col-md-6 mb-4">
               {{ .Render "news-box"}}
             </div>
@@ -58,7 +58,7 @@
   
     <div class="button-line row justify-content-center">
       <div class="col-xl-4 col-lg-6 col-md-6">
-        <a href="https://medium.com/@gear_techs" class="btn btn-light btn-md w-100">View more on Medium</a>
+        <a href="https://medium.com/@gear_techs" target="_blank" class="btn btn-light btn-md w-100">View more on Medium</a>
       </div>
     </div>
 
