@@ -25,15 +25,9 @@
               <div class="tab-pane fade show active" id="nav-all" role="tabpanel" aria-labelledby="nav-all-tab">
                 <div class="events-list row">
       
-                  {{ range (.Paginator 4).Pages.ByPublishDate.Reverse }}
+                  {{ range .Pages.ByPublishDate.Reverse }}
                   <div class="col-xl-4 col-lg-6 col-md-6 mb-4">
-                    {{ .Render "news-box-technicals"}}
-                  </div>
-                  {{ end }}
-      
-                  {{ range (.Paginator 4).Pages.ByPublishDate.Reverse }}
-                  <div class="col-xl-4 col-lg-6 col-md-6 mb-4">
-                    {{ .Render "news-box-updates"}}
+                    {{ .Render "news-box"}}
                   </div>
                   {{ end }}
       
@@ -41,19 +35,23 @@
               </div>
               <div class="tab-pane fade" id="nav-technical" role="tabpanel" aria-labelledby="nav-technical-tab">
                 <div class="events-list row">
-                  {{ range (.Paginator 4).Pages.ByPublishDate.Reverse }}
+
+                  {{ range .Pages.ByPublishDate.Reverse }}
                   <div class="col-xl-4 col-lg-6 col-md-6 mb-4">
-                    {{ .Render "news-box-technicals"}}
+                    {{ .Render "news-box"}}
                   </div>
                   {{ end }}
+
                 </div>
               </div>
               <div class="tab-pane fade" id="nav-updates" role="tabpanel" aria-labelledby="nav-updates-tab">
-                {{ range (.Paginator 4).Pages.ByPublishDate.Reverse }}
+
+                  {{ range .Pages.ByPublishDate.Reverse }}
                   <div class="col-xl-4 col-lg-6 col-md-6 mb-4">
-                    {{ .Render "news-box-updates"}}
+                    {{ .Render "news-box"}}
                   </div>
                   {{ end }}
+                  
               </div>
             </div>
           </div>
@@ -69,7 +67,7 @@
             <div class="inner-bg">
               <h2>Gear on medium</h2>
               <p>To stay up to date with our latest announcements and updates...</p>
-              <a href="https://medium.com/@gear_techs" class="btn btn-success"><span class="d-xl-inline d-lg-inline d-md-inline d-sm-inline d-none">Follow</span> gear on medium</a>
+              <a href="https://medium.com/@gear_techs" target="_blank" class="btn btn-success"><span class="d-xl-inline d-lg-inline d-md-inline d-sm-inline d-none">Follow</span> gear on medium</a>
             </div>
           </div>
       
