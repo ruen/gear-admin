@@ -56,7 +56,7 @@
           <ul class="event-info-list">
             <li class="icon-1">{{ .Description }}</li>
             <li class="icon-2">{{ dateFormat "15:04 MST, 02 January" .Date.UTC }}</li>
-            <li class="icon-3">{{ .Text }}</li>
+            <li class="icon-3">{{ .Params.location }}</li>
           </ul>
         </div>
       </div>
