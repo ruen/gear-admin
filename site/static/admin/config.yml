@@ -1,15 +1,15 @@
 backend:
   name: git-gateway
 
-media_folder: "site/static/img" # Folder where user uploaded files should go
+media_folder: "site/static/img"
 public_folder: "img"
 
-collections: # A list of collections the CMS should be able to edit
-  - name: "news-updates" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "News Updates" # Used in the UI, ie.: "New Post"
-    folder: "site/content/news/news-updates" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    fields: # The fields each document in this collection have
+collections:
+  - name: "news-updates"
+    label: "News Updates"
+    folder: "site/content/news/news-updates"
+    create: true
+    fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Article Link", name: "text", widget: "text"}
