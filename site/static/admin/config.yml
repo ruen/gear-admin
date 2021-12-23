@@ -42,7 +42,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Workshop Link", name: "text", widget: "text"}
       - {label: "Kind of event", name: "description", widget: "text"}
-      - {label: "Location", name: "location", widget: "text"}
+      - {label: "Location", name: "location", widget: "text", required: false}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
 
@@ -58,7 +58,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Meetup Link", name: "text", widget: "text"}
       - {label: "Kind of event", name: "description", widget: "text"}
-      - {label: "Location", name: "location", widget: "text"}
+      - {label: "Location", name: "location", widget: "text", required: false}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
 
@@ -74,7 +74,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "AMA Link", name: "text", widget: "text"}
       - {label: "Kind of event", name: "description", widget: "text"}
-      - {label: "Location", name: "location", widget: "text"}
+      - {label: "Location", name: "location", widget: "text", required: false}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
 
