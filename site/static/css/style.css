@@ -602,11 +602,11 @@ header p {
 	border-radius: 2px;
 }
 
-.event-box a .label.green {
+.event-box a .label.meetup {
 	background: rgba(43, 208, 113, 1);
 }
 
-.event-box a .label.brown {
+.event-box a .label.ama {
 	background: rgba(255, 153, 0, 1);
 }
 
