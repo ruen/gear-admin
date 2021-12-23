@@ -46,7 +46,7 @@
             <div class="title gray-text">About event</div>
             <div class="line"></div>
           </div>
-          {{ .Text }}
+          {{ .Content }}
         </div>
         <div class="event-info-box col-xl-6 col-lg-6 col-md-6 pl-xl-4 pl-lg-4 pl-md-4">
           <div class="title-line">
@@ -56,7 +56,7 @@
           <ul class="event-info-list">
             <li class="icon-1">{{ .Description }}</li>
             <li class="icon-2">{{ dateFormat "15:04 MST, 02 January" .Date.UTC }}</li>
-            <li class="icon-3"></li>
+            <li class="icon-3">{{ .Title }}</li>
           </ul>
         </div>
       </div>
