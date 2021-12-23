@@ -1,7 +1,5 @@
 {{ define "main" }}
 
-{{ partial "table-column" .Params.table-column}}
-
 {{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
 
 {{ partial "blog" . }}
