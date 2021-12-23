@@ -3,7 +3,7 @@
     <div class="row">
       <div class="info col-xl-6 col-lg-6">
         <h2>{{.develop.heading}}</h2>
-        <p>{{.develop.text}}</p>
+        {{ .Content }}
       </div>
       <div class="col-xl-6 col-lg-6 position-relative">
         <figure class="image"><img src="/img/about-section-image-2.png" alt=""></figure>
@@ -13,7 +13,7 @@
       {{ range .products }}
       <article class="col-xl col-lg d-flex align-items-center">
         <figure><img src="{{.image}}" alt=""></figure>
-        <div class="text">{{.Content}}</div>
+        <div class="text">{{.Text}}</div>
       </article>
       {{ end }}
     </footer>
