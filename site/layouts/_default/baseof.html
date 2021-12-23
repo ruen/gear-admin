@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="{{ $.Site.Language.Lang }}">
   {{ partial "head" . }}
-  <body class="sans-serif">
+  <body>
 
     {{ block "header" . }}{{ partial "nav" . }}{{end}}
 
@@ -13,5 +13,6 @@
     {{ with $script.js }}
       <script src="{{ relURL . }}"></script>
     {{ end }}
+    
   </body>
 </html>
