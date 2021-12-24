@@ -602,7 +602,8 @@ header p {
 	border-radius: 2px;
 }
 
-.event-box a .label.Meetup {
+.event-box a .label.Meetup,
+.event-box a .label.Updates {
 	background: rgba(43, 208, 113, 1);
 }
 
