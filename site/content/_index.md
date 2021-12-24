@@ -15,7 +15,7 @@ about:
     possible. Gear’s platform will enable developers to build dApps on both
     Polkadot and Kusama, to take advantage of the benefits of their respective
     ecosystems, without the significant financial and time expenses developers
-    have dealt with traditionally.
+    have dealt with traditionally
 develop:
   heading: Easy to develop
   text: >-
