@@ -48,7 +48,7 @@
 				<div class="tab-pane fade" id="nav-meetups" role="tabpanel" aria-labelledby="nav-meetups-tab">
 					<div class="events-list row">
 						
-						{{- if ne $.Params.upcoming true -}}
+						{{- if ne $.Params.upcoming false -}}
 						<div class="col-xl-4 col-lg-6 col-md-6 mb-4">
 							{{ .Render "news-box"}}1
 						</div>
