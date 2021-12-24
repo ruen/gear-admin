@@ -37,7 +37,7 @@
 				<div class="tab-pane fade" id="nav-workshops" role="tabpanel" aria-labelledby="nav-workshop-tab">
 					<div class="events-list row">
 						
-					{{ range where .Paginator.Pages ".Descriptions" "intersect" (slice "Workshop")}}
+					{{ range where .Pages ".Descriptions" "intersect" (slice "Workshop")}}
 					<div class="col-xl-4 col-lg-6 col-md-6 mb-4">
 						<article class="event-box">
 							<a href="{{ .RelPermalink }}">
