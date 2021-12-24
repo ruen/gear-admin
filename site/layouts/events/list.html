@@ -48,11 +48,15 @@
 				<div class="tab-pane fade" id="nav-meetups" role="tabpanel" aria-labelledby="nav-meetups-tab">
 					<div class="events-list row">
 						
-						{{ range sort .Paginator.Pages "section" "/events/events-meetups" }}
+						{{- if ne $.Params.upcoming true -}}
 						<div class="col-xl-4 col-lg-6 col-md-6 mb-4">
-							{{ .Render "news-box"}}
+							{{ .Render "news-box"}}1
 						</div>
-						{{ end }}
+						{{- else -}}
+						<div class="col-xl-4 col-lg-6 col-md-6 mb-4">
+							{{ .Render "news-box"}}2
+						</div>
+						{{- end -}}
 				
 					</div>
 				</div>
