@@ -37,11 +37,11 @@
 				<div class="tab-pane fade" id="nav-workshops" role="tabpanel" aria-labelledby="nav-workshop-tab">
 					<div class="events-list row">
 						
-						{{ range .Pages.ByPublishDate.Reverse.Params.Description }}
-						<div class="col-xl-4 col-lg-6 col-md-6 mb-4">
-						{{ .Render "news-box"}}
-						</div>
-						{{ end }}
+					{{ range .Pages.ByPublishDate.Reverse }}
+					<div class="col-xl-4 col-lg-6 col-md-6 mb-4">
+					{{ .Render "news-box"}}
+					</div>
+					{{ end }}
 
 					</div>
 				</div>
