@@ -1,6 +1,6 @@
 ---
 title: First GEAR workshop in Russia
-date: 2021-10-15T07:40:00.000Z
+date: 2021-10-15T14:00:32.826Z
 text: s
 description: Workshop
 location: HSE, Moscow, Russia
