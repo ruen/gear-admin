@@ -1,11 +1,9 @@
 ---
-title: Intro to Smart Contracts on Polkadot w/ GEAR - Workshop
-date: 2021-11-12T15:00:32.826Z
+title: First GEAR workshop in Russia
+date: 2021-10-15T14:00:32.826Z
 text: s
 description: Workshop
-location: ACM @ UCSD
+location: HSE, Moscow, Russia
 image: img/event-image-3.jpg
 ---
-As blockchain technology is actively gaining traction, it is important to keep up to date with the most recent innovations in the field. At Gear, we provide a cutting edge solution for smart contracts on Polkadot and we want the best engineers to be contributing to our rapidly expanding ecosystem.
-
-That’s why we conducted a series of workshops at the best STEM universities and blockchain-related organizations in the world to raise awareness about our outstanding technology.
+We held the first GEAR workshop at the Higher School of Economics in Moscow with students from the computer science department. This workshop was truly special and we are super grateful to the Higher School of Economics for giving us the opportunity to meet their amazing students.
