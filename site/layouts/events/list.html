@@ -11,106 +11,103 @@
     </div>
 
     <!-- events tabs -->
-			<div class="events-tabs">
-				<div class="container">
-					<nav class="nav-tab-line">
-						<h2>Upcoming Events</h2>
-						<div class="nav nav-tabs" id="nav-tab" role="tablist">
-							<a class="nav-item nav-link active" id="nav-all-tab" data-toggle="tab" href="#nav-all" role="tab" aria-controls="nav-all" aria-selected="true">All</a>
-							<a class="nav-item nav-link" id="nav-workshops-tab" data-toggle="tab" href="#nav-workshops" role="tab" aria-controls="nav-workshops" aria-selected="false">Workshops</a>
-							<a class="nav-item nav-link" id="nav-meetups-tab" data-toggle="tab" href="#nav-meetups" role="tab" aria-controls="nav-meetups" aria-selected="false">Meetups</a>
-							<a class="nav-item nav-link" id="nav-amas-tab" data-toggle="tab" href="#nav-amas" role="tab" aria-controls="nav-amas" aria-selected="false">AMAs</a>
-						</div>
-					</nav>
-					<div class="tab-content" id="nav-tabContent">
-						<div class="tab-pane fade show active" id="nav-all" role="tabpanel" aria-labelledby="nav-all-tab">
-							<div class="events-list row">
+	<div class="events-tabs">
+		<div class="container">
+			<nav class="nav-tab-line">
+				<h2>Upcoming Events</h2>
+				<div class="nav nav-tabs" id="nav-tab" role="tablist">
+					<a class="nav-item nav-link active" id="nav-all-tab" data-toggle="tab" href="#nav-all" role="tab" aria-controls="nav-all" aria-selected="true">All</a>
+					<a class="nav-item nav-link" id="nav-workshops-tab" data-toggle="tab" href="#nav-workshops" role="tab" aria-controls="nav-workshops" aria-selected="false">Workshops</a>
+					<a class="nav-item nav-link" id="nav-meetups-tab" data-toggle="tab" href="#nav-meetups" role="tab" aria-controls="nav-meetups" aria-selected="false">Meetups</a>
+					<a class="nav-item nav-link" id="nav-amas-tab" data-toggle="tab" href="#nav-amas" role="tab" aria-controls="nav-amas" aria-selected="false">AMAs</a>
+				</div>
+			</nav>
+			<div class="tab-content" id="nav-tabContent">
+				<div class="tab-pane fade show active" id="nav-all" role="tabpanel" aria-labelledby="nav-all-tab">
+					<div class="events-list row">
 
-								{{ range .Pages.ByPublishDate.Reverse }}
-                <div class="col-xl-4 col-lg-6 col-md-6 mb-4">
-                  {{ .Render "news-box"}}
-                </div>
-                {{ end }}
+						{{ range .Pages.ByPublishDate.Reverse }}
+						<div class="col-xl-4 col-lg-6 col-md-6 mb-4">
+						{{ .Render "news-box"}}
+						</div>
+						{{ end }}
 
-							</div>
-						</div>
-						<div class="tab-pane fade" id="nav-workshops" role="tabpanel" aria-labelledby="nav-workshop-tab">
-							<div class="events-list row">
-								
-                {{ range .Pages.ByPublishDate.Reverse }}
-                <div class="col-xl-4 col-lg-6 col-md-6 mb-4">
-                  {{ .Render "news-box"}}
-                </div>
-                {{ end }}
+					</div>
+				</div>
+				<div class="tab-pane fade" id="nav-workshops" role="tabpanel" aria-labelledby="nav-workshop-tab">
+					<div class="events-list row">
+						
+					{{ $headless := .Site.GetPageы "/events-meetups" }}
+					{{ end }}
 
-							</div>
+					</div>
+				</div>
+				<div class="tab-pane fade" id="nav-meetups" role="tabpanel" aria-labelledby="nav-meetups-tab">
+					<div class="events-list row">
+						
+						{{ range .Pages.ByPublishDate.Reverse }}
+						<div class="col-xl-4 col-lg-6 col-md-6 mb-4">
+						{{ .Render "news-box"}}
 						</div>
-						<div class="tab-pane fade" id="nav-meetups" role="tabpanel" aria-labelledby="nav-meetups-tab">
-              <div class="events-list row">
-								
-                {{ range .Pages.ByPublishDate.Reverse }}
-                <div class="col-xl-4 col-lg-6 col-md-6 mb-4">
-                  {{ .Render "news-box"}}
-                </div>
-                {{ end }}
-                
-							</div>
+						{{ end }}
+				
+					</div>
+				</div>
+				<div class="tab-pane fade" id="nav-amas" role="tabpanel" aria-labelledby="nav-amas-tab">
+					<div class="events-list row">
+										
+						{{ range .Pages.ByPublishDate.Reverse }}
+						<div class="col-xl-4 col-lg-6 col-md-6 mb-4">
+						{{ .Render "news-box"}}
 						</div>
-						<div class="tab-pane fade" id="nav-amas" role="tabpanel" aria-labelledby="nav-amas-tab">
-              <div class="events-list row">
-								
-                {{ range .Pages.ByPublishDate.Reverse }}
-                <div class="col-xl-4 col-lg-6 col-md-6 mb-4">
-                  {{ .Render "news-box"}}
-                </div>
-                {{ end }}
+						{{ end }}
 
-							</div>
-						</div>
 					</div>
 				</div>
 			</div>
-			<!-- end events tabs -->
+		</div>
+	</div>
+	<!-- end events tabs -->
   
     <!-- events tabs -->
-			<div class="events-tabs dark-bg">
-				<div class="container">
-					<nav class="nav-tab-line">
-						<h2>Past Events</h2>
-						<div class="nav nav-tabs" id="nav-tab" role="tablist">
-							<a class="nav-item nav-link active" id="nav-up_all-tab" data-toggle="tab" href="#nav-up_all" role="tab" aria-controls="nav-up_all" aria-selected="true">All</a>
-							<a class="nav-item nav-link" id="nav-up_workshops-tab" data-toggle="tab" href="#nav-up_workshops" role="tab" aria-controls="nav-up_workshops" aria-selected="false">Workshops</a>
-							<a class="nav-item nav-link" id="nav-up_meetups-tab" data-toggle="tab" href="#nav-up_meetups" role="tab" aria-controls="nav-up_meetups" aria-selected="false">Meetups</a>
-							<a class="nav-item nav-link" id="nav-up_amas-tab" data-toggle="tab" href="#nav-up_amas" role="tab" aria-controls="nav-up_amas" aria-selected="false">AMAs</a>
-						</div>
-					</nav>
-					<div class="tab-content" id="nav-tabContent">
-						<div class="tab-pane fade show active" id="nav-up_all" role="tabpanel" aria-labelledby="nav-up-all-tab">
-							<div class="events-list row">
-								
-							</div>
-						</div>
-						<div class="tab-pane fade" id="nav-up_workshops" role="tabpanel" aria-labelledby="nav-up-workshop-tab">
-							<div class="events-list row">
-								
-							</div>
-						</div>
-						<div class="tab-pane fade" id="nav-up_meetups" role="tabpanel" aria-labelledby="nav-up-meetups-tab">
-							<div class="events-list row">
+	<div class="events-tabs dark-bg">
+		<div class="container">
+			<nav class="nav-tab-line">
+				<h2>Past Events</h2>
+				<div class="nav nav-tabs" id="nav-tab" role="tablist">
+					<a class="nav-item nav-link active" id="nav-up_all-tab" data-toggle="tab" href="#nav-up_all" role="tab" aria-controls="nav-up_all" aria-selected="true">All</a>
+					<a class="nav-item nav-link" id="nav-up_workshops-tab" data-toggle="tab" href="#nav-up_workshops" role="tab" aria-controls="nav-up_workshops" aria-selected="false">Workshops</a>
+					<a class="nav-item nav-link" id="nav-up_meetups-tab" data-toggle="tab" href="#nav-up_meetups" role="tab" aria-controls="nav-up_meetups" aria-selected="false">Meetups</a>
+					<a class="nav-item nav-link" id="nav-up_amas-tab" data-toggle="tab" href="#nav-up_amas" role="tab" aria-controls="nav-up_amas" aria-selected="false">AMAs</a>
+				</div>
+			</nav>
+			<div class="tab-content" id="nav-tabContent">
+				<div class="tab-pane fade show active" id="nav-up_all" role="tabpanel" aria-labelledby="nav-up-all-tab">
+					<div class="events-list row">
+						
+					</div>
+				</div>
+				<div class="tab-pane fade" id="nav-up_workshops" role="tabpanel" aria-labelledby="nav-up-workshop-tab">
+					<div class="events-list row">
+						
+					</div>
+				</div>
+				<div class="tab-pane fade" id="nav-up_meetups" role="tabpanel" aria-labelledby="nav-up-meetups-tab">
+					<div class="events-list row">
 
-							</div>
-						</div>
-						<div class="tab-pane fade" id="nav-up_amas" role="tabpanel" aria-labelledby="nav-up-amas-tab">
-							<div class="events-list row">
-								
-							</div>
-						</div>
+					</div>
+				</div>
+				<div class="tab-pane fade" id="nav-up_amas" role="tabpanel" aria-labelledby="nav-up-amas-tab">
+					<div class="events-list row">
+						
 					</div>
 				</div>
 			</div>
-			<!-- end events tabs -->
+		</div>
+	</div>
+	<!-- end events tabs -->
 
-		</section>
-		<!-- end events section -->
+</section>
+<!-- end events section -->
 
 {{end}}
