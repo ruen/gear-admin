@@ -11,15 +11,11 @@ subtitle: Gear is an advanced WASM based smart contract platform, aiming to be a
   in under 5 minutes in the easiest and most efficient way possible.
 about:
   heading: What is Gear?
-  text: >-
-    Gear is a network that makes deploying on Polkadot as easy & efficient as
+  text: Gear is a network that makes deploying on Polkadot as easy & efficient as
     possible. Gear’s platform will enable developers to build dApps on both
     Polkadot and Kusama, to take advantage of the benefits of their respective
     ecosystems, without the significant financial and time expenses developers
     have dealt with traditionally.
-
-
-    Gear is a network that makes deploying on Polkadot as easy & efficient as possible. Gear’s platform will enable developers to build dApps on both Polkadot and Kusama, to take advantage of the benefits of their respective ecosystems, without the significant financial and time expenses developers have dealt with traditionally.
 develop:
   heading: Easy to develop
   text: >-
