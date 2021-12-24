@@ -39,7 +39,16 @@
 						
 					{{ range where .Paginator.Pages ".Description" "intersect" (slice "workshop")}}
 					<div class="col-xl-4 col-lg-6 col-md-6 mb-4">
-					{{ .Render "news-box"}}
+						<article class="event-box">
+							<a href="{{ .RelPermalink }}">
+								<span class="label {{ .Description }}">{{ .Description }}</span>
+								<figure>{{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}</figure>
+								<span class="info">
+									<span class="title">{{ .Title }}</span>
+									<span class="date">{{ .Date.Format "January 2" }}</span>
+								</span>
+							</a>
+						</article>
 					</div>
 					{{ end }}
 
