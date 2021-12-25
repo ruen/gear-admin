@@ -88,7 +88,8 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Workshop Link", name: "text", widget: "text", required: false}
+      - {label: "Workshop link text", name: "linkText", widget: "text"}
+      - {label: "Workshop link", name: "link", widget: "text", required: false}
       - {label: "Kind of event", name: "description", widget: "text"}
       - {label: "Location", name: "location", widget: "text", required: false}
       - {label: "Image", name: "image", widget: "image", required: false}
@@ -109,7 +110,8 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Meetup Link", name: "text", widget: "text", required: false}
+      - {label: "Meetup link text", name: "linkText", widget: "text"}
+      - {label: "Meetup link", name: "link", widget: "text", required: false}
       - {label: "Kind of event", name: "description", widget: "text"}
       - {label: "Location", name: "location", widget: "text", required: false}
       - {label: "Image", name: "image", widget: "image", required: false}
@@ -130,7 +132,8 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "AMA Link", name: "text", widget: "text", required: false}
+      - {label: "AMA link text", name: "linkText", widget: "text"}
+      - {label: "AMA link", name: "link", widget: "text", required: false}
       - {label: "Kind of event", name: "description", widget: "text"}
       - {label: "Location", name: "location", widget: "text", required: false}
       - {label: "Image", name: "image", widget: "image", required: false}
