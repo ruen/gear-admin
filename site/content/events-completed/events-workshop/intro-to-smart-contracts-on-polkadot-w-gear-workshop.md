@@ -1,7 +1,9 @@
 ---
+linkText: Article
+text: s
 title: Intro to Smart Contracts on Polkadot w/ GEAR - Workshop
 date: 2021-10-19T16:00:09.774Z
-text: s
+link: https://medium.com/@gear_techs/gear-online-workshop-in-the-united-states-6b3c17eb8cec
 description: Workshop
 location: CSES @ UCSD via Zoom
 image: img/event-image-2.jpg
