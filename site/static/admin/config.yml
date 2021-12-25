@@ -85,7 +85,6 @@ collections:
 - name: "Completed events"
     label: "Completed events"
     files:
-    - file: "site/content/events-completed/_index.md"
         - name: "events-workshop-completed"
           label: "Completed Events Workshop"
           folder: "site/content/events-completed/events-workshop"
