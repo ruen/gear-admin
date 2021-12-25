@@ -103,3 +103,7 @@ jQuery(function($){
     });
 });
 // end animate
+
+$('.events-list-block.gallery:empty').each(function() {
+    $(this).hide();
+})
