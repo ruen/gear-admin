@@ -104,6 +104,6 @@ jQuery(function($){
 });
 // end animate
 
-$('.events-list-block.gallery:empty').each(function() {
-    $(this).hide();
+$('.events-list-block.gallery .events-list.row:empty').each(function() {
+    $(this).parent().addClass('d-none');
 })
