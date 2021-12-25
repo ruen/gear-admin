@@ -94,8 +94,8 @@ collections:
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Event video", name: gallery, widget: list, fields: [
-          {label: "Event video image", name: "videoimage", widget: "image"},
-          {label: "Event video link", name: "link", widget: "text"}]}
+          {label: "Event video image", name: "videoImage", widget: "image"},
+          {label: "Event video link", name: "videoLink", widget: "text"}]}
 
 
   - name: "events-meetups-completed"
@@ -113,8 +113,8 @@ collections:
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Event video", name: gallery, widget: list, fields: [
-          {label: "Event video image", name: "videoimage", widget: "image"},
-          {label: "Event video link", name: "link", widget: "text"}]}
+          {label: "Event video image", name: "videoImage", widget: "image"},
+          {label: "Event video link", name: "videoLink", widget: "text"}]}
 
 
   - name: "events-amas-completed"
@@ -132,8 +132,8 @@ collections:
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Event video", name: gallery, widget: list, fields: [
-          {label: "Event video image", name: "videoimage", widget: "image"},
-          {label: "Event video link", name: "link", widget: "text"}]}
+          {label: "Event video image", name: "videoImage", widget: "image"},
+          {label: "Event video link", name: "videoLink", widget: "text"}]}
 
 
   - name: "pages"
