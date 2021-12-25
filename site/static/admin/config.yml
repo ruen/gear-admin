@@ -94,7 +94,7 @@ collections:
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Gallery", name: gallery, widget: list, fields: [
-          {label: "Gallery Image", name: "galimage", widget: "image"},
+          {label: "Gallery Image", name: "image", widget: "image"},
           {label: "Link", name: "link", widget: "text"}]}
 
 
@@ -113,7 +113,7 @@ collections:
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Gallery", name: gallery, widget: list, fields: [
-          {label: "Gallery Image", name: "galimage", widget: "image"},
+          {label: "Gallery Image", name: "image", widget: "image"},
           {label: "Link", name: "link", widget: "text"}]}
 
 
@@ -132,7 +132,7 @@ collections:
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Gallery", name: gallery, widget: list, fields: [
-          {label: "Gallery Image", name: "galimage", widget: "image"},
+          {label: "Gallery Image", name: "image", widget: "image"},
           {label: "Link", name: "link", widget: "text"}]}
 
 
