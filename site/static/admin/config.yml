@@ -98,9 +98,6 @@ collections:
       - {label: "Location", name: "location", widget: "text", required: false}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Gallery", name: gallery, widget: list, fields: [
-          {label: "Gallery Image", name: "galimage", widget: "image"},
-          {label: "Link", name: "link", widget: "text"}]}
 
 
   - name: "events-meetups"
@@ -117,9 +114,6 @@ collections:
       - {label: "Location", name: "location", widget: "text", required: false}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Gallery", name: gallery, widget: list, fields: [
-          {label: "Gallery Image", name: "galimage", widget: "image"},
-          {label: "Link", name: "link", widget: "text"}]}
 
 
   - name: "events-amas"
@@ -136,9 +130,6 @@ collections:
       - {label: "Location", name: "location", widget: "text", required: false}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Gallery", name: gallery, widget: list, fields: [
-          {label: "Gallery Image", name: "galimage", widget: "image"},
-          {label: "Link", name: "link", widget: "text"}]}
 
 
 
