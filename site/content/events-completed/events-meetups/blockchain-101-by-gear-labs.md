@@ -1,7 +1,9 @@
 ---
+linkText: Twitter
+text: s
 title: Blockchain 101 by GEAR Labs
 date: 2021-11-19T16:00:50.009Z
-text: s
+link: https://twitter.com/gear_techs/status/1462844186584141824
 description: Meetup
 location: Atlas Coffee
 image: img/event-image-7.jpg
