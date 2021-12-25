@@ -105,5 +105,5 @@ jQuery(function($){
 // end animate
 
 $('.events-list-block.gallery .events-list.row:empty').each(function() {
-    $(this).parent().addClass('d-none');
+    $('.events-list-block.gallery').addClass('d-none');
 })
