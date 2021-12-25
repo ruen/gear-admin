@@ -1,7 +1,9 @@
 ---
+linkText: Twitter
+text: s
 title: AMA PolkaWarriors
 date: 2021-11-15T10:00:50.255Z
-text: s
+link: https://twitter.com/PolkaWarriors_/status/1459429280870383616
 description: AMA
 location: Online
 image: img/event-image-10.jpg
