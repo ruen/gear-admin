@@ -61,6 +61,7 @@
         </div>
       </div>
 
+      {{ range .Params.eventGallery }}
       <div class="events-list-block gallery" id="gallery">
         <header>
           <div class="title-line">
@@ -85,6 +86,7 @@
           {{ end }}
         </div>
       </div>
+      {{ end }}
       
       <div class="events-list-block">
         <header>
