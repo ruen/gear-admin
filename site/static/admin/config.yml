@@ -79,6 +79,66 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
 
 
+
+
+
+
+
+  - name: "events-workshop"
+    label: "Events Workshop"
+    folder: "site/content/events-completed/events-workshop"
+    create: true
+    editor:
+      preview: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Workshop Link", name: "text", widget: "text"}
+      - {label: "Kind of event", name: "description", widget: "text"}
+      - {label: "Location", name: "location", widget: "text", required: false}
+      - {label: "Image", name: "image", widget: "image", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+
+  - name: "events-meetups"
+    label: "Events Meetups"
+    folder: "site/content/events-completed/events-meetups"
+    create: true
+    editor:
+      preview: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Meetup Link", name: "text", widget: "text"}
+      - {label: "Kind of event", name: "description", widget: "text"}
+      - {label: "Location", name: "location", widget: "text", required: false}
+      - {label: "Image", name: "image", widget: "image", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+
+  - name: "events-amas"
+    label: "Events AMAs"
+    folder: "site/content/events-completed/events-amas"
+    create: true
+    editor:
+      preview: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "AMA Link", name: "text", widget: "text"}
+      - {label: "Kind of event", name: "description", widget: "text"}
+      - {label: "Location", name: "location", widget: "text", required: false}
+      - {label: "Image", name: "image", widget: "image", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+
+
+
+
+
+
+
+
   - name: "pages"
     label: "Pages"
     files:
