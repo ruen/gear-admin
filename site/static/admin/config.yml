@@ -96,7 +96,7 @@ collections:
       - {label: "Event video", name: eventVideo, widget: list, fields: [
           {label: "Event video image", name: "videoImage", widget: "image"},
           {label: "Event video link", name: "videoLink", widget: "text"}]}
-      - {label: "Event image", name: eventImage, widget: list, fields: [
+      - {label: "Event photo", name: eventImage, widget: list, fields: [
           {label: "Event image", name: "image", widget: "image"}]}
 
 
@@ -117,7 +117,7 @@ collections:
       - {label: "Event video", name: eventVideo, widget: list, fields: [
           {label: "Event video image", name: "videoImage", widget: "image"},
           {label: "Event video link", name: "videoLink", widget: "text"}]}
-      - {label: "Event image", name: eventImage, widget: list, fields: [
+      - {label: "Event photo", name: eventImage, widget: list, fields: [
           {label: "Event image", name: "image", widget: "image"}]}
 
 
@@ -138,7 +138,7 @@ collections:
       - {label: "Event video", name: eventVideo, widget: list, fields: [
           {label: "Event video image", name: "videoImage", widget: "image"},
           {label: "Event video link", name: "videoLink", widget: "text"}]}
-      - {label: "Event image", name: eventImage, widget: list, fields: [
+      - {label: "Event photo", name: eventImage, widget: list, fields: [
           {label: "Event image", name: "image", widget: "image"}]}
 
 
