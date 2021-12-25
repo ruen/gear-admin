@@ -82,7 +82,9 @@ collections:
 
 
 
-
+- name: "pages"
+    label: "Pages"
+    files:
 
   - name: "events-workshop-completed"
     label: "Completed Events Workshop"
