@@ -82,7 +82,7 @@ collections:
 
 
 
-- name: "pages"
+- name: "Completed events"
     label: "Pages"
     files:
 
