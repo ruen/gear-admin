@@ -83,64 +83,63 @@ collections:
 
 
 - name: "Completed events"
-    label: "Pages"
+    label: "Completed events"
     files:
+    - file: "site/content/events-completed/_index.md"
+        - name: "events-workshop-completed"
+          label: "Completed Events Workshop"
+          folder: "site/content/events-completed/events-workshop"
+          create: true
+          editor:
+            preview: true
+          fields:
+            - {label: "Title", name: "title", widget: "string"}
+            - {label: "Publish Date", name: "date", widget: "datetime"}
+            - {label: "Workshop Link", name: "text", widget: "text"}
+            - {label: "Kind of event", name: "description", widget: "text"}
+            - {label: "Location", name: "location", widget: "text", required: false}
+            - {label: "Image", name: "image", widget: "image", required: false}
+            - {label: "Body", name: "body", widget: "markdown"}
+            - {label: "Gallery", name: gallery, widget: list, fields: [
+                {label: "Gallery Image", name: "galimage", widget: "image"},
+                {label: "Link", name: "link", widget: "text"}]}
 
-  - name: "events-workshop-completed"
-    label: "Completed Events Workshop"
-    folder: "site/content/events-completed/events-workshop"
-    create: true
-    editor:
-      preview: true
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Workshop Link", name: "text", widget: "text"}
-      - {label: "Kind of event", name: "description", widget: "text"}
-      - {label: "Location", name: "location", widget: "text", required: false}
-      - {label: "Image", name: "image", widget: "image", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Gallery", name: gallery, widget: list, fields: [
-          {label: "Gallery Image", name: "galimage", widget: "image"},
-          {label: "Link", name: "link", widget: "text"}]}
+        - name: "events-meetups-completed"
+          label: "Completed Events Meetups"
+          folder: "site/content/events-completed/events-meetups"
+          create: true
+          editor:
+            preview: true
+          fields:
+            - {label: "Title", name: "title", widget: "string"}
+            - {label: "Publish Date", name: "date", widget: "datetime"}
+            - {label: "Meetup Link", name: "text", widget: "text"}
+            - {label: "Kind of event", name: "description", widget: "text"}
+            - {label: "Location", name: "location", widget: "text", required: false}
+            - {label: "Image", name: "image", widget: "image", required: false}
+            - {label: "Body", name: "body", widget: "markdown"}
+            - {label: "Gallery", name: gallery, widget: list, fields: [
+                {label: "Gallery Image", name: "galimage", widget: "image"},
+                {label: "Link", name: "link", widget: "text"}]}
 
 
-  - name: "events-meetups-completed"
-    label: "Completed Events Meetups"
-    folder: "site/content/events-completed/events-meetups"
-    create: true
-    editor:
-      preview: true
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Meetup Link", name: "text", widget: "text"}
-      - {label: "Kind of event", name: "description", widget: "text"}
-      - {label: "Location", name: "location", widget: "text", required: false}
-      - {label: "Image", name: "image", widget: "image", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Gallery", name: gallery, widget: list, fields: [
-          {label: "Gallery Image", name: "galimage", widget: "image"},
-          {label: "Link", name: "link", widget: "text"}]}
-
-
-  - name: "events-amas-completed"
-    label: "Completed Events AMAs"
-    folder: "site/content/events-completed/events-amas"
-    create: true
-    editor:
-      preview: true
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "AMA Link", name: "text", widget: "text"}
-      - {label: "Kind of event", name: "description", widget: "text"}
-      - {label: "Location", name: "location", widget: "text", required: false}
-      - {label: "Image", name: "image", widget: "image", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Gallery", name: gallery, widget: list, fields: [
-          {label: "Gallery Image", name: "galimage", widget: "image"},
-          {label: "Link", name: "link", widget: "text"}]}
+        - name: "events-amas-completed"
+          label: "Completed Events AMAs"
+          folder: "site/content/events-completed/events-amas"
+          create: true
+          editor:
+            preview: true
+          fields:
+            - {label: "Title", name: "title", widget: "string"}
+            - {label: "Publish Date", name: "date", widget: "datetime"}
+            - {label: "AMA Link", name: "text", widget: "text"}
+            - {label: "Kind of event", name: "description", widget: "text"}
+            - {label: "Location", name: "location", widget: "text", required: false}
+            - {label: "Image", name: "image", widget: "image", required: false}
+            - {label: "Body", name: "body", widget: "markdown"}
+            - {label: "Gallery", name: gallery, widget: list, fields: [
+                {label: "Gallery Image", name: "galimage", widget: "image"},
+                {label: "Link", name: "link", widget: "text"}]}
 
 
 
