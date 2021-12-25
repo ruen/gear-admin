@@ -1,7 +1,7 @@
 ---
 title: AMA with famous Turkish influencer OrientusPrime
 date: 2021-11-30T18:00:09.966Z
-text: s
+text: https://twitter.com/OrientusPrime/status/1465626956779634696
 description: AMA
 location: Online
 image: img/event-image-12.jpg
