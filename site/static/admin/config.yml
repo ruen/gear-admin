@@ -84,7 +84,7 @@ collections:
 
 
 
-  - name: "events-workshop"
+  - name: "events-workshop-completed"
     label: "Events Workshop"
     folder: "site/content/events-completed/events-workshop"
     create: true
@@ -98,9 +98,12 @@ collections:
       - {label: "Location", name: "location", widget: "text", required: false}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Gallery", name: gallery, widget: list, fields: [
+          {label: "Gallery Image", name: "galimage", widget: "image"},
+          {label: "Link", name: "link", widget: "text"}]}
 
 
-  - name: "events-meetups"
+  - name: "events-meetups-completed"
     label: "Events Meetups"
     folder: "site/content/events-completed/events-meetups"
     create: true
@@ -114,9 +117,12 @@ collections:
       - {label: "Location", name: "location", widget: "text", required: false}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Gallery", name: gallery, widget: list, fields: [
+          {label: "Gallery Image", name: "galimage", widget: "image"},
+          {label: "Link", name: "link", widget: "text"}]}
 
 
-  - name: "events-amas"
+  - name: "events-amas-completed"
     label: "Events AMAs"
     folder: "site/content/events-completed/events-amas"
     create: true
@@ -130,6 +136,9 @@ collections:
       - {label: "Location", name: "location", widget: "text", required: false}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Gallery", name: gallery, widget: list, fields: [
+          {label: "Gallery Image", name: "galimage", widget: "image"},
+          {label: "Link", name: "link", widget: "text"}]}
 
 
 
