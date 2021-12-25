@@ -104,6 +104,3 @@ jQuery(function($){
 });
 // end animate
 
-$('.events-list-block.gallery .events-list.row:empty').each(function() {
-    $('.events-list-block.gallery').addClass('d-none');
-})
