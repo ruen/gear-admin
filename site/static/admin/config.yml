@@ -93,9 +93,11 @@ collections:
       - {label: "Location", name: "location", widget: "text", required: false}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Event video", name: gallery, widget: list, fields: [
+      - {label: "Event video", name: eventVideo, widget: list, fields: [
           {label: "Event video image", name: "videoImage", widget: "image"},
           {label: "Event video link", name: "videoLink", widget: "text"}]}
+      - {label: "Event image", name: eventImage, widget: list, fields: [
+          {label: "Event image", name: "image", widget: "image"}]}
 
 
   - name: "events-meetups-completed"
@@ -112,9 +114,11 @@ collections:
       - {label: "Location", name: "location", widget: "text", required: false}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Event video", name: gallery, widget: list, fields: [
+      - {label: "Event video", name: eventVideo, widget: list, fields: [
           {label: "Event video image", name: "videoImage", widget: "image"},
           {label: "Event video link", name: "videoLink", widget: "text"}]}
+      - {label: "Event image", name: eventImage, widget: list, fields: [
+          {label: "Event image", name: "image", widget: "image"}]}
 
 
   - name: "events-amas-completed"
@@ -131,9 +135,11 @@ collections:
       - {label: "Location", name: "location", widget: "text", required: false}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Event video", name: gallery, widget: list, fields: [
+      - {label: "Event video", name: eventVideo, widget: list, fields: [
           {label: "Event video image", name: "videoImage", widget: "image"},
           {label: "Event video link", name: "videoLink", widget: "text"}]}
+      - {label: "Event image", name: eventImage, widget: list, fields: [
+          {label: "Event image", name: "image", widget: "image"}]}
 
 
   - name: "pages"
