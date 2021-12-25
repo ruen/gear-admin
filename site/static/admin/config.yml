@@ -85,7 +85,7 @@ collections:
 
 
   - name: "events-workshop-completed"
-    label: "Events Workshop"
+    label: "Completed Events Workshop"
     folder: "site/content/events-completed/events-workshop"
     create: true
     editor:
@@ -104,7 +104,7 @@ collections:
 
 
   - name: "events-meetups-completed"
-    label: "Events Meetups"
+    label: "Completed Events Meetups"
     folder: "site/content/events-completed/events-meetups"
     create: true
     editor:
@@ -123,7 +123,7 @@ collections:
 
 
   - name: "events-amas-completed"
-    label: "Events AMAs"
+    label: "Completed Events AMAs"
     folder: "site/content/events-completed/events-amas"
     create: true
     editor:
