@@ -103,9 +103,3 @@ jQuery(function($){
     });
 });
 // end animate
-
-jQuery(function($){
-    if ($('.events-list').is(":empty")){
-        $('.events-list').hide();
-    }
-});
