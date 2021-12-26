@@ -61,7 +61,7 @@
         </div>
       </div>
 
-      <div class="events-list-block gallery" id="gallery">
+      <div class="events-list-block gallery {{ if .Count(.Params.eventVideo) = 0 && .Count(.Params.eventImage) = 0 }}d-none{{ end }}" id="gallery">
         <header>
           <div class="title-line">
             <div class="title gray-text">Event video & photo</div>
