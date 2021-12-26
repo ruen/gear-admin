@@ -105,6 +105,6 @@ jQuery(function($){
 // end animate
 
 
-    if ($('.events-list-block.gallery .events-list.row').is(":empty")){
-        $('.events-list-block.gallery').addClass("d-none");
-    }
+if ($('.events-list-block.gallery .events-list.row').is(":empty")){
+    $('.events-list-block.gallery').addClass("d-none");
+}
