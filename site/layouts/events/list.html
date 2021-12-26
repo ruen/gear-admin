@@ -26,44 +26,28 @@
 				<div class="tab-pane fade show active" id="nav-all" role="tabpanel" aria-labelledby="nav-all-tab">
 					<div class="events-list row">
 
-						{{ range (.Site.GetPage "section" "/events").Pages.ByPublishDate.Reverse }}
-						<div class="col-xl-4 col-lg-6 col-md-6 mb-4">
-						{{ .Render "news-box"}}
-						</div>
-						{{ end }}
+						
 
 					</div>
 				</div>
 				<div class="tab-pane fade" id="nav-workshops" role="tabpanel" aria-labelledby="nav-workshop-tab">
 					<div class="events-list row">
 						
-						{{ range (.Site.GetPage "section" "/events-workshop").RegularPages }}
-						<div class="col-xl-4 col-lg-6 col-md-6 mb-4">
-							{{ .Render "news-box"}}
-						</div>
-						{{ end }}
+						
 
 					</div>
 				</div>
 				<div class="tab-pane fade" id="nav-meetups" role="tabpanel" aria-labelledby="nav-meetups-tab">
 					<div class="events-list row">
 						
-						{{ range .Pages.ByPublishDate.Reverse }}
-						<div class="col-xl-4 col-lg-6 col-md-6 mb-4">
-						{{ .Render "news-box"}}
-						</div>
-						{{ end }}
+						
 				
 					</div>
 				</div>
 				<div class="tab-pane fade" id="nav-amas" role="tabpanel" aria-labelledby="nav-amas-tab">
 					<div class="events-list row">
 										
-						{{ range .Pages.ByPublishDate.Reverse }}
-						<div class="col-xl-4 col-lg-6 col-md-6 mb-4">
-						{{ .Render "news-box"}}
-						</div>
-						{{ end }}
+						
 
 					</div>
 				</div>
@@ -96,12 +80,20 @@
 				</div>
 				<div class="tab-pane fade" id="nav-up_workshops" role="tabpanel" aria-labelledby="nav-up-workshop-tab">
 					<div class="events-list row">
-						
+						{{ range (.Site.GetPage "section" "/events").Pages.ByPublishDate.Reverse }}
+						<div class="col-xl-4 col-lg-6 col-md-6 mb-4">
+						{{ .Render "news-box"}}
+						</div>
+						{{ end }}
 					</div>
 				</div>
 				<div class="tab-pane fade" id="nav-up_meetups" role="tabpanel" aria-labelledby="nav-up-meetups-tab">
 					<div class="events-list row">
-
+						{{ range (.Site.GetPage "section" "/events-workshop").RegularPages }}
+						<div class="col-xl-4 col-lg-6 col-md-6 mb-4">
+							{{ .Render "news-box"}}
+						</div>
+						{{ end }}
 					</div>
 				</div>
 				<div class="tab-pane fade" id="nav-up_amas" role="tabpanel" aria-labelledby="nav-up-amas-tab">
