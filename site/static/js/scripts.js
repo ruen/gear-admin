@@ -105,5 +105,7 @@ jQuery(function($){
 // end animate
 
 jQuery(function($){
-    $('.events-list-block.gallery .events-list.row:empty').parent().remove();
+    if ($('.events-list-block.gallery .events-list.row').is(":empty")){
+        $('.events-list-block.gallery').hide();
+    }
 });
