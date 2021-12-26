@@ -104,3 +104,6 @@ jQuery(function($){
 });
 // end animate
 
+$('.events-list-block.gallery .events-list.row').filter(function(){
+    return $.trim($(this).html()) == '';
+}).hide()
