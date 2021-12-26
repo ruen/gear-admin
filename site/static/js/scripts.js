@@ -104,6 +104,6 @@ jQuery(function($){
 });
 // end animate
 
-$('.events-list-block.gallery .events-list.row').filter(function(){
-    return $.trim($(this).html()) == '';
-}).hide()
+jQuery(function($){
+    $('.events-list-block.gallery .events-list.row:empty').parent().remove();
+});
