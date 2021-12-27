@@ -80,7 +80,7 @@
 				</div>
 				<div class="tab-pane fade" id="nav-up_workshops" role="tabpanel" aria-labelledby="nav-up-workshop-tab">
 					<div class="events-list row">
-						{{ $related := .Site.RegularPages.RelatedTo ( keyVals "tags" "hugo" "rocks")  ( keyVals "date" .Date ) }}
+						{{ $related := .Site.RegularPages.RelatedTo ( keyVals "tags" "AMA") }}
 						{{ range (.Site.GetPage "section" "events-completed").Pages.ByPublishDate.Reverse }}
 						<div class="col-xl-4 col-lg-6 col-md-6 mb-4">
 						{{ .Render "news-box"}}
