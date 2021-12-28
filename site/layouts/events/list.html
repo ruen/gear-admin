@@ -81,7 +81,7 @@
 				<div class="tab-pane fade" id="nav-up_workshops" role="tabpanel" aria-labelledby="nav-up-workshop-tab">
 					<div class="events-list row">
 						
-						{{ range with .Site.RegularPages }}
+						{{ range with .Site.RegularPages "Type" "events-completed" }}
 						<div class="col-xl-4 col-lg-6 col-md-6 mb-4">
 						{{ .Render "news-box"}}
 						</div>
