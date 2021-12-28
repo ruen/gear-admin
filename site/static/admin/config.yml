@@ -87,6 +87,7 @@ collections:
       preview: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Tags", name: "tags", widget: "tags"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Workshop link text", name: "linkText", widget: "text"}
       - {label: "Workshop link", name: "link", widget: "text", required: false}
