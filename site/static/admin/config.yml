@@ -151,8 +151,6 @@ collections:
       - file: "site/content/_index.md"
         label: "Home Page"
         name: "home"
-        editor:
-          preview: true
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Subtitle, name: subtitle, widget: string}
