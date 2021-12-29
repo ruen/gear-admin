@@ -4,10 +4,6 @@ backend:
 media_folder: "site/static/img"
 public_folder: "img"
 
-taxonomies:
-  category: categories
-  tag: tags
-
 collections:
   - name: "news-updates"
     label: "News Updates"
@@ -87,8 +83,6 @@ collections:
     label: "Completed Events Workshop"
     folder: "site/content/events-completed/events-workshop"
     create: true
-    tags:
-      - Workshop
     editor:
       preview: true
     fields:
@@ -111,8 +105,6 @@ collections:
     label: "Completed Events Meetups"
     folder: "site/content/events-completed/events-meetups"
     create: true
-    tags:
-      - Meetup
     editor:
       preview: true
     fields:
@@ -135,8 +127,6 @@ collections:
     label: "Completed Events AMAs"
     folder: "site/content/events-completed/events-amas"
     create: true
-    tags:
-      - AMA
     editor:
       preview: true
     fields:
