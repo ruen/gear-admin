@@ -3,6 +3,7 @@ title: GEAR w/ Bay Area Blockchain Developers
 date: 2021-11-04T16:00:38.996Z
 text: sd
 description: Meetup
+completedEvents: Meetup
 location: Atlas Cafe
 image: img/event-image-4.jpg
 ---
