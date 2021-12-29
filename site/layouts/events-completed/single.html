@@ -9,9 +9,11 @@
         <div class="info col-xl-6 col-lg-6 col-md-6">
           <h3>{{.Title}}</h3>
           <div class="buttons-line d-flex align-items-center">
+            {{ if {{ .Params.link }}.enable }}
             <a href="{{ .Params.link }}" class="btn btn-light btn-sm anchor">
               View <span class="d-xl-inline d-lg-inline d-md-none d-sm-inline d-none">{{ .Params.linkText }}</span>
             </a>
+            {{ end }}
             <div class="social-links">
               <a href="https://twitter.com/gear_techs" target="_blank" class="social-link">
                 <img src="img/social-icon-1.svg" alt="">
@@ -96,7 +98,7 @@
         </header>
         <div class="events-list row">
 
-          {{ range (.Site.GetPage "{{ .Params.completedEvents }}").Pages.ByPublishDate.Reverse }}
+          {{ range (.Site.GetPage "/events-completed/events-workshop").Pages.ByPublishDate.Reverse }}
           <div class="col-xl-4 col-lg-6 col-md-6 mb-4">
           {{ .Render "news-box"}}
           </div>
