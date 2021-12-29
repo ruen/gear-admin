@@ -4,6 +4,10 @@ backend:
 media_folder: "site/static/img"
 public_folder: "img"
 
+taxonomies:
+  category: categories
+  tag: tags
+
 collections:
   - name: "news-updates"
     label: "News Updates"
@@ -82,12 +86,12 @@ collections:
   - name: "events-workshop-completed"
     label: "Completed Events Workshop"
     folder: "site/content/events-completed/events-workshop"
-    tags: ["workshop"]
     create: true
     editor:
       preview: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Tags", name: "tags", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Workshop link text", name: "linkText", widget: "text", required: false}
       - {label: "Workshop link", name: "link", widget: "text", required: false}

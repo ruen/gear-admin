@@ -1,6 +1,8 @@
 
 {{ define "main" }}
 
+  <div class="d-none">tags: ['{{ .Params.tags }}']</div>
+
   <!-- events banner section -->
   <section class="events-banner-section">
     <figure class="events-banner-section-bg">{{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}</figure>
