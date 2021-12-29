@@ -88,12 +88,6 @@
 						{{ .Render "news-box"}}
 						</div>
 						{{ end }}
-
-						{{ range (.Site.GetPage "completedEvents" "meetup").Pages.ByPublishDate.Reverse }}
-						<div class="col-xl-4 col-lg-6 col-md-6 mb-4">
-						{{ .Render "news-box"}}
-						</div>
-						{{ end }}
 						
 					</div>
 				</div>
