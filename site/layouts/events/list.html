@@ -83,7 +83,7 @@
 				<div class="tab-pane fade" id="nav-up_workshops" role="tabpanel" aria-labelledby="nav-up-workshop-tab">
 					<div class="events-list row">
 
-						{{ range (.Site.GetPage "Tags" "workshop").Pages.ByPublishDate.Reverse }}
+						{{ range (.Site.GetPage "completedEvents" "workshop").Pages.ByPublishDate.Reverse }}
 						<div class="col-xl-4 col-lg-6 col-md-6 mb-4">
 						{{ .Render "news-box"}}
 						</div>
@@ -94,7 +94,7 @@
 				<div class="tab-pane fade" id="nav-up_meetups" role="tabpanel" aria-labelledby="nav-up-meetups-tab">
 					<div class="events-list row">
 
-						{{ range (.Site.GetPage "Tags" "meetup").Pages.ByPublishDate.Reverse }}
+						{{ range (.Site.GetPage "completedEvents" "meetup").Pages.ByPublishDate.Reverse }}
 						<div class="col-xl-4 col-lg-6 col-md-6 mb-4">
 						{{ .Render "news-box"}}
 						</div>
@@ -105,7 +105,7 @@
 				<div class="tab-pane fade" id="nav-up_amas" role="tabpanel" aria-labelledby="nav-up-amas-tab">
 					<div class="events-list row">
 
-						{{ range (.Site.GetPage "Tags" "ama").Pages.ByPublishDate.Reverse }}
+						{{ range (.Site.GetPage "completedEvents" "ama").Pages.ByPublishDate.Reverse }}
 						<div class="col-xl-4 col-lg-6 col-md-6 mb-4">
 						{{ .Render "news-box"}}
 						</div>
