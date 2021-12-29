@@ -3,7 +3,7 @@ title: Offline Gear`s Workshop in Moscow
 date: 2021-11-18T15:00:17.773Z
 linkText: Photos
 link: "#gallery"
-description: Workshop
+completedEvents: Workshop
 location: Offline Workshop Moscow, Russia
 eventVideo:
   - videoImage: img/event-6-video.jpg
@@ -20,5 +20,6 @@ eventImage:
 text: s
 gallery: []
 image: img/event-image-6.jpg
+description: Workshop
 ---
 We held yet another workshop in Russia. It was attended by amazing students and we had a great experience and time.
