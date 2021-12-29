@@ -19,7 +19,6 @@ eventImage:
   - image: img/event-photo-23.jpeg
   - image: img/event-photo-24.jpeg
 text: s
-tags: ["workshop"]
 ---
 As blockchain technology is actively gaining traction, it is important to keep up to date with the most recent innovations in the field. At Gear, we provide a cutting edge solution for smart contracts on Polkadot and we want the best engineers to be contributing to our rapidly expanding ecosystem.
 

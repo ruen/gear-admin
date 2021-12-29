@@ -5,6 +5,5 @@ text: ""
 description: Workshop
 location: Online
 image: img/event-image-13.jpg
-tags: ["workshop"]
 ---
 In November we started expanding our community all around the world. China was our first port of call and on the 14th of December we held our first online workshop for the Chinese community. We outlined the benefits of our technology and demonstrated how to deploy smart contracts on the Gear platform. We would like to say thank you to such an amazing audience who participated in the workshop and we hope to see you again soon!
