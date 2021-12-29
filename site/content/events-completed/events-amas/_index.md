@@ -1,4 +1,0 @@
----
-title: AMAs
-tags: ['ama']
----
