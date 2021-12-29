@@ -87,6 +87,7 @@ collections:
     label: "Completed Events Workshop"
     folder: "site/content/events-completed/events-workshop"
     create: true
+    tag: tags
     editor:
       preview: true
     fields:
