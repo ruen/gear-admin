@@ -91,11 +91,10 @@ collections:
       preview: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Tags", name: "tags", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Workshop link text", name: "linkText", widget: "text", required: false}
       - {label: "Workshop link", name: "link", widget: "text", required: false}
-      - {label: "Kind of event", name: "description", widget: "text"}
+      - {label: "Kind of event", name: "tags", widget: "string"}
       - {label: "Location", name: "location", widget: "text", required: false}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
@@ -118,7 +117,7 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Meetup link text", name: "linkText", widget: "text", required: false}
       - {label: "Meetup link", name: "link", widget: "text", required: false}
-      - {label: "Kind of event", name: "description", widget: "text"}
+      - {label: "Kind of event", name: "tags", widget: "string"}
       - {label: "Location", name: "location", widget: "text", required: false}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
@@ -141,7 +140,7 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "AMA link text", name: "linkText", widget: "text", required: false}
       - {label: "AMA link", name: "link", widget: "text", required: false}
-      - {label: "Kind of event", name: "description", widget: "text"}
+      - {label: "Kind of event", name: "tags", widget: "string"}
       - {label: "Location", name: "location", widget: "text", required: false}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
