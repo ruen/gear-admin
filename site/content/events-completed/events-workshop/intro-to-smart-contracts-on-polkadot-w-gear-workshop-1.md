@@ -19,5 +19,6 @@ eventImage:
   - image: img/event-photo-7.jpeg
   - image: img/event-photo-8.jpeg
 text: s
+tags: ["workshop"]
 ---
 We held the first GEAR workshop at the Higher School of Economics in Moscow with students from the computer science department. This workshop was truly special and we are super grateful to the Higher School of Economics for giving us the opportunity to meet their amazing students.
