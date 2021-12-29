@@ -4,6 +4,10 @@ backend:
 media_folder: "site/static/img"
 public_folder: "img"
 
+taxonomies:
+  category: categories
+  tag: tags
+
 collections:
   - name: "news-updates"
     label: "News Updates"
