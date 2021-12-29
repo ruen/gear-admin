@@ -72,7 +72,7 @@
 				<div class="tab-pane fade show active" id="nav-up_all" role="tabpanel" aria-labelledby="nav-up-all-tab">
 					<div class="events-list row">
 
-						{{ range .Site.Taxonomies.tags }}
+						{{ range .Site.Taxonomies.tags.completedEvents }}
 						<div class="col-xl-4 col-lg-6 col-md-6 mb-4">
 						{{ .Render "news-box"}}
 						</div>
