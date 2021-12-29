@@ -2,4 +2,6 @@ baseurl = "/"
 languageCode = "en-us"
 languageLang = "en"
 title = "Homepage"
-tags = ['workshop']
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
