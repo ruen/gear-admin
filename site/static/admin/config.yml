@@ -82,7 +82,7 @@ collections:
   - name: "events-workshop-completed"
     label: "Completed Events Workshop"
     folder: "site/content/events-completed/events-workshop"
-    tags: [workshop]
+    tags: ["workshop"]
     create: true
     editor:
       preview: true
@@ -105,7 +105,7 @@ collections:
   - name: "events-meetups-completed"
     label: "Completed Events Meetups"
     folder: "site/content/events-completed/events-meetups"
-    tags: [meetup]
+    tags: ["meetup"]
     create: true
     editor:
       preview: true
@@ -128,7 +128,7 @@ collections:
   - name: "events-amas-completed"
     label: "Completed Events AMAs"
     folder: "site/content/events-completed/events-amas"
-    tags: [ama]
+    tags: ["ama"]
     create: true
     editor:
       preview: true
