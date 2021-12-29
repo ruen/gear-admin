@@ -96,7 +96,7 @@
         </header>
         <div class="events-list row">
 
-          {{ range (.Site.GetPage "completedEvents" "{{ .Params.completedEvents }}").Pages.ByPublishDate.Reverse }}
+          {{ range (.Site.GetPage "completedEvents" "Workshop").Pages.ByPublishDate.Reverse }}
           <div class="col-xl-4 col-lg-6 col-md-6 mb-4">
           {{ .Render "news-box"}}
           </div>
