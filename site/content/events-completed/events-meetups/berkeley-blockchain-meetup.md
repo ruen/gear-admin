@@ -3,6 +3,7 @@ title: Berkeley Blockchain Meetup
 date: 2021-11-05T16:00:37.205Z
 text: s
 description: Meetup
+completedEvents: Meetup
 location: "@SCET"
 image: img/event-image-1.jpg
 ---
