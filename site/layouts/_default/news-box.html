@@ -1,6 +1,5 @@
 <article class="event-box">
 	<a href="{{ .RelPermalink }}">
-		<div class="d-none">tags: ['{{ .Description }}']</div>
 		<span class="label {{ .Description }}">{{ .Description }}</span>
 		<figure>{{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}</figure>
 		<span class="info">
