@@ -5,5 +5,4 @@ title = "Homepage"
 [taxonomies]
   category = 'categories'
   tag = 'tags'
-  event = 'events'
   completedEvent = 'completedEvents'
