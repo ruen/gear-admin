@@ -3,6 +3,7 @@ title: The end of the year has been a very remarkable
 date: 2022-01-05T17:11:36.333Z
 text: s
 events: Ama
+tags: Ama
 location: Online
 image: img/event-image-3.jpg
 ---
