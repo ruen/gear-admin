@@ -4,6 +4,7 @@ date: 2021-11-25T16:10:07.137Z
 text: https://medium.com/@gear_techs/what-makes-gear-unique-and-what-are-the-benefits-of-deploying-on-gear-f5631c8e9f0f
 description: Technologies
 tags: Technologies
+news: Technologies
 image: img/news-image-9.jpeg
 ---
 A brief history of the internet…
