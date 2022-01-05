@@ -2,7 +2,7 @@
 title: Gear’s first online workshop for the Chinese community
 date: 2021-12-14T06:00:57.469Z
 text: ""
-completedEvents: Completed Workshop
+completedEvents: CompletedWorkshop
 description: Workshop
 location: Online
 image: img/event-image-13.jpg
