@@ -26,14 +26,22 @@
 				<div class="tab-pane fade show active" id="nav-all" role="tabpanel" aria-labelledby="nav-all-tab">
 					<div class="events-list row">
 
-						
+						{{ range (.Site.GetPage "section" "events").Pages.ByPublishDate.Reverse }}
+						<div class="col-xl-4 col-lg-6 col-md-6 mb-4">
+						{{ .Render "events-box"}}
+						</div>
+						{{ end }}
 
 					</div>
 				</div>
 				<div class="tab-pane fade" id="nav-workshops" role="tabpanel" aria-labelledby="nav-workshop-tab">
 					<div class="events-list row">
 						
-						
+						{{ range (.Site.GetPage "events" "workshop").Pages.ByPublishDate.Reverse }}
+						<div class="col-xl-4 col-lg-6 col-md-6 mb-4">
+						{{ .Render "events-box"}}
+						</div>
+						{{ end }}
 
 					</div>
 				</div>
@@ -85,7 +93,7 @@
 
 						{{ range (.Site.GetPage "completedEvents" "workshop").Pages.ByPublishDate.Reverse }}
 						<div class="col-xl-4 col-lg-6 col-md-6 mb-4">
-						{{ .Render "events-box"}}
+						{{ .Render "events-complited-box"}}
 						</div>
 						{{ end }}
 						
@@ -96,7 +104,7 @@
 
 						{{ range (.Site.GetPage "completedEvents" "meetup").Pages.ByPublishDate.Reverse }}
 						<div class="col-xl-4 col-lg-6 col-md-6 mb-4">
-						{{ .Render "events-box"}}
+						{{ .Render "events-complited-box"}}
 						</div>
 						{{ end }}
 						
@@ -107,7 +115,7 @@
 
 						{{ range (.Site.GetPage "completedEvents" "ama").Pages.ByPublishDate.Reverse }}
 						<div class="col-xl-4 col-lg-6 col-md-6 mb-4">
-						{{ .Render "events-box"}}
+						{{ .Render "events-complited-box"}}
 						</div>
 						{{ end }}
 
