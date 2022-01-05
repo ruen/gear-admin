@@ -5,6 +5,6 @@ title = "Homepage"
 [taxonomies]
   category = 'categories'
   tag = 'tags'
-  news = 'news'
+  new = 'news'
   event = 'events'
   completedEvent = 'completedEvents'
