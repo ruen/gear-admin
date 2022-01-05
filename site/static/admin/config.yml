@@ -18,7 +18,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Article Link", name: "text", widget: "text"}
-      - {label: "Kind of technologies", name: "tags", widget: "string"}
+      - {label: "Kind of event", name: "description", widget: "string"}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
 
@@ -31,7 +31,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Article Link", name: "text", widget: "text"}
-      - {label: "Kind of technologies", name: "tags", widget: "string"}
+      - {label: "Kind of event", name: "description", widget: "string"}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
 
@@ -46,7 +46,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Workshop Link", name: "text", widget: "text"}
-      - {label: "Kind of event", name: "tags", widget: "string"}
+      - {label: "Kind of event", name: "description", widget: "string"}
       - {label: "Location", name: "location", widget: "text", required: false}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
