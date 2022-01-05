@@ -69,9 +69,15 @@
           </div>
           <a href="news.html" class="btn btn-light btn-sm">Back to all news</a>
         </header>
-        <!-- <div class="button-line">
-          <a href="#" class="button">Show more</a>
-        </div> -->
+        <div class="events-list row">
+
+          {{ range first 6 (.Site.GetPage "section" "news").Pages.ByPublishDate.Reverse }}
+          <div class="col-xl-4 col-lg-6 col-md-6 mb-4">
+          {{ .Render "events-box"}}
+          </div>
+          {{ end }}
+
+        </div>
       </div>
 
     </div>
