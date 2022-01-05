@@ -7,7 +7,6 @@ public_folder: "img"
 taxonomies:
   category: categories
   tag: tags
-  new: news
   event: events
   completedEvent: completedEvents
 
@@ -20,7 +19,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Article Link", name: "text", widget: "text"}
-      - {label: "Kind of technologies", name: "news", widget: "string"}
+      - {label: "Kind of technologies", name: "tags", widget: "string"}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
 
@@ -33,7 +32,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Article Link", name: "text", widget: "text"}
-      - {label: "Kind of technologies", name: "news", widget: "string"}
+      - {label: "Kind of technologies", name: "tags", widget: "string"}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
 

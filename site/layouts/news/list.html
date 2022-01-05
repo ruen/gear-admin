@@ -31,9 +31,9 @@
         <div class="tab-pane fade" id="nav-technical" role="tabpanel" aria-labelledby="nav-technical-tab">
           <div class="events-list row">
 
-            {{ range (.Site.GetPage "completedEvents" "ama").Pages.ByPublishDate.Reverse }}
+            {{ range (.Site.GetPage "tags" "technologies").Pages.ByPublishDate.Reverse }}
 						<div class="col-xl-4 col-lg-6 col-md-6 mb-4">
-						{{ .Render "events-box"}}
+						{{ .Render "news-box"}}
 						</div>
 						{{ end }}
 
@@ -43,11 +43,7 @@
         <div class="tab-pane fade" id="nav-updates" role="tabpanel" aria-labelledby="nav-updates-tab">
           <div class="events-list row">
 
-            {{ range (.Site.GetPage "completedEvents" "meetup").Pages.ByPublishDate.Reverse }}
-						<div class="col-xl-4 col-lg-6 col-md-6 mb-4">
-						{{ .Render "events-box"}}
-						</div>
-						{{ end }}
+            
 
           </div>
         </div>
