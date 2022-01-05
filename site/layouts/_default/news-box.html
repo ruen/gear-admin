@@ -1,6 +1,6 @@
 <article class="event-box">
 	<a href="{{ .RelPermalink }}">
-		<span class="label {{ .Params.news }}">{{ .Params.news }}</span>
+		<span class="label {{ .Params.completedEvents }}">{{ .Params.completedEvents }}</span>
 		<figure>{{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}</figure>
 		<span class="info">
 			<span class="title">{{ .Title }}</span>
