@@ -1,11 +1,10 @@
 ---
-title: Online workshop for the Chinese community
-date: 2021-12-30T18:00:58.217Z
-link: ""
-completedEvents: CompletedWorkshop
-description: Workshop
+title: Online workshop
+date: 2022-01-05T18:53:00.598Z
+text: s
+events: Meetup
 location: Online
-image: img/event-image-14.jpg
+image: img/event-image-9.jpg
 ---
 We’re happy to announce that we’ll be hosting the last online workshop in 2021 for the Chinese community.
 

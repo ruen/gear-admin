@@ -1,11 +1,10 @@
 ---
-title: Online workshop for the Chinese community
-date: 2021-12-30T18:00:58.217Z
-link: ""
-completedEvents: CompletedWorkshop
-description: Workshop
+title: We’re happy to announce that we’ll be hosting
+date: 2022-01-05T18:53:58.091Z
+text: s
+events: AMA
 location: Online
-image: img/event-image-14.jpg
+image: img/event-image-12.jpg
 ---
 We’re happy to announce that we’ll be hosting the last online workshop in 2021 for the Chinese community.
 
