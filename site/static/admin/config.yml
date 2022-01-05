@@ -7,6 +7,7 @@ public_folder: "img"
 taxonomies:
   category: categories
   tag: tags
+  new: news
   event: events
   completedEvent: completedEvents
 
