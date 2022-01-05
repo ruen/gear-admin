@@ -2,7 +2,7 @@
 title: af af qwf qwfqwfqwf qfq frewfsd fsd
 date: 2022-01-05T18:18:53.081Z
 text: ss
-events: Workshop
+events: dsa
 location: Online
 image: img/event-image-7.jpg
 ---
