@@ -1,7 +1,7 @@
 ---
 title: Blockchain 101 by GEAR Labs
 date: 2021-11-19T16:00:50.009Z
-linkText: Twitter
+linkText: View Twitter
 link: https://twitter.com/gear_techs/status/1462844186584141824
 completedEvents: Meetup
 text: s

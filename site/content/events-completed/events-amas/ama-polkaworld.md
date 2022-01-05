@@ -1,7 +1,7 @@
 ---
 title: AMA PolkaWorld
 date: 2021-11-25T17:00:09.529Z
-linkText: Twitter
+linkText: View Twitter
 link: https://twitter.com/polkaworld_org/status/1463058419787526145
 completedEvents: AMA
 text: s

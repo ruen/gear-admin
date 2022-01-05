@@ -1,7 +1,7 @@
 ---
 title: Intro to Smart Contracts on Polkadot w/ GEAR - Workshop
 date: 2021-10-19T16:00:09.774Z
-linkText: Article
+linkText: View Article
 link: https://medium.com/@gear_techs/gear-online-workshop-in-the-united-states-6b3c17eb8cec
 completedEvents: Workshop
 text: s

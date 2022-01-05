@@ -1,7 +1,7 @@
 ---
 title: San Francisco GEAR Meetup
 date: 2021-11-06T15:00:47.580Z
-linkText: Twitter
+linkText: View Twitter
 link: https://twitter.com/gear_techs/status/1457117980354039812
 completedEvents: Meetup
 text: s

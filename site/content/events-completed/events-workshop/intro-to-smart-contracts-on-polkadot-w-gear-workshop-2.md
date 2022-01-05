@@ -1,7 +1,7 @@
 ---
 title: Intro to Smart Contracts on Polkadot w/ GEAR - Workshop
 date: 2021-11-12T15:00:08.170Z
-linkText: Photo
+linkText: View Photo
 link: "#gallery"
 completedEvents: Workshop
 location: ACM @ UCSD

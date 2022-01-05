@@ -1,7 +1,7 @@
 ---
 title: First GEAR workshop in Russia
 date: 2021-10-15T14:00:32.826Z
-linkText: Article
+linkText: View Article
 link: https://medium.com/@gear_techs/first-gear-workshop-in-russia-7c640421c69
 completedEvents: Workshop
 location: HSE, Moscow, Russia
