@@ -3,6 +3,7 @@ title: Gear Technologies Raises $12 Million in Venture Round
 date: 2021-12-21T10:00:11.270Z
 text: https://medium.com/@gear_techs/gear-technologies-building-efficient-smart-contract-support-for-the-polkadot-ecosystem-raises-12-d6c0ea25d402
 description: Technologies
+tags: Technologies
 image: img/news-image-11.jpeg
 ---
 Gear Technologies announced today it has raised $12 million in a private investment round led by Blockchange Ventures. Gear Technologies is the developer of the Gear Network, a smart contract support layer that will make accessing the Polkadot ecosystem more efficient and less expensive.
