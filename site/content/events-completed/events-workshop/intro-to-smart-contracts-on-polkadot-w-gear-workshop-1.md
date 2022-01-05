@@ -3,7 +3,8 @@ title: First GEAR workshop in Russia
 date: 2021-10-15T14:00:32.826Z
 linkText: View Article
 link: https://medium.com/@gear_techs/first-gear-workshop-in-russia-7c640421c69
-completedEvents: Workshop
+completedEvents: CompletedWorkshop
+description: Workshop
 location: HSE, Moscow, Russia
 image: img/event-image-8.jpg
 eventVideo:
@@ -19,6 +20,5 @@ eventImage:
   - image: img/event-photo-7.jpeg
   - image: img/event-photo-8.jpeg
 text: s
-description: Workshop
 ---
 We held the first GEAR workshop at the Higher School of Economics in Moscow with students from the computer science department. This workshop was truly special and we are super grateful to the Higher School of Economics for giving us the opportunity to meet their amazing students.
