@@ -4,6 +4,7 @@ date: 2021-11-08T16:06:19.133Z
 text: https://medium.com/@gear_techs/basic-intro-to-smart-contracts-gear-a831680062c0
 description: Technologies
 tags: Technologies
+news: Technologies
 image: img/news-image-2.jpeg
 ---
 **A very short history of blockchain technology**
