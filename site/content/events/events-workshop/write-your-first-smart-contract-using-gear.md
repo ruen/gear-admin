@@ -3,6 +3,7 @@ title: Write your first smart contract using Gear
 date: 2021-12-10T11:50:22.757Z
 text: s
 description: Workshop
+events: Workshop
 location: Bauman Moscow State Technical University
 image: img/event-image-9.jpg
 ---
