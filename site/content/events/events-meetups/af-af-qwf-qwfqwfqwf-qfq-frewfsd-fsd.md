@@ -3,6 +3,7 @@ title: af af qwf qwfqwfqwf qfq frewfsd fsd
 date: 2022-01-05T17:10:39.748Z
 text: s
 events: Meetup
+tags: Meetup
 location: Online
 image: img/event-image-13.jpg
 ---
