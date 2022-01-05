@@ -74,7 +74,7 @@
 
 						{{ range (.Site.GetPage "section" "events-completed").Pages.ByPublishDate.Reverse }}
 						<div class="col-xl-4 col-lg-6 col-md-6 mb-4">
-						{{ .Render "news-box"}}
+						{{ .Render "events-box"}}
 						</div>
 						{{ end }}
 
@@ -85,7 +85,7 @@
 
 						{{ range (.Site.GetPage "completedEvents" "workshop").Pages.ByPublishDate.Reverse }}
 						<div class="col-xl-4 col-lg-6 col-md-6 mb-4">
-						{{ .Render "news-box"}}
+						{{ .Render "events-box"}}
 						</div>
 						{{ end }}
 						
@@ -96,7 +96,7 @@
 
 						{{ range (.Site.GetPage "completedEvents" "meetup").Pages.ByPublishDate.Reverse }}
 						<div class="col-xl-4 col-lg-6 col-md-6 mb-4">
-						{{ .Render "news-box"}}
+						{{ .Render "events-box"}}
 						</div>
 						{{ end }}
 						
@@ -107,7 +107,7 @@
 
 						{{ range (.Site.GetPage "completedEvents" "ama").Pages.ByPublishDate.Reverse }}
 						<div class="col-xl-4 col-lg-6 col-md-6 mb-4">
-						{{ .Render "news-box"}}
+						{{ .Render "events-box"}}
 						</div>
 						{{ end }}
 
