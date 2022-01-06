@@ -4,14 +4,14 @@
 
 {{ partial "carousel" . }}
 
-{{ partial "about" . }}
+{{ partial "about" .Params.about}}
 
-{{ partial "easy-develop" . }}
+{{ partial "easy-develop" .Params }}
 
-{{ partial "easy-scale" . }}
+{{ partial "easy-scale" .Params.scale}}
 
-{{ partial "use-cases" . }}
+{{ partial "use-cases" .Params.cases}}
 
-{{ partial "community" . }}
+{{ partial "community" .Params.community}}
 
 {{ end }}
