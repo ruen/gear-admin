@@ -1,10 +1,4 @@
 ---
-values:
-  heading: Our values
-  text: Coffee is an amazing part of human culture but it has a dark side too –
-    one of colonialism and mindless abuse of natural resources and human lives.
-    We want to turn this around and return the coffee trade to the drink’s
-    exhilarating, empowering and unifying nature.
 banner:
   title: Computational Component of Polkadot Network
   subtitle: Gear is an advanced WASM based smart contract platform, aiming to be a
@@ -84,11 +78,4 @@ subtitle: Gear is an advanced WASM based smart contract platform, aiming to be a
   Polkadot and Kusama parachain, that enables developers to deploy their dApps
   in under 5 minutes in the easiest and most efficient way possible.
 title: Computational Component of Polkadot Network
-blurb:
-  heading: Why Kaldi?
-  text: Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
-image: /img/home-jumbotron.jpg
 ---
