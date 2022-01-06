@@ -1,0 +1,17 @@
+<!-- news section -->
+<section class="news-section">
+	<div class="container">
+		<h2 id="events">Latest News & events</h2>
+	</div>
+	<div class="news-carousel">
+		{{ range first 8 (.Site.GetPage "section" "news").Pages.ByPublishDate.Reverse }}
+		  {{ .Render "news-box"}}
+		{{ end }}
+	</div>
+	<div class="container">
+		<div class="btn-line d-flex justify-content-center">
+			<a href="/news" class="btn btn-light btn-sm">Show more</a>
+		</div>
+	</div>
+</section>
+<!-- end news section -->
