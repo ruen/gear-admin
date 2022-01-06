@@ -2,7 +2,7 @@
 
 {{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
 
-{{ partial "carousel" .Params.carousel }}
+{{ partial "blog" . }}
 
 {{ partial "about" .Params.about}}
 
