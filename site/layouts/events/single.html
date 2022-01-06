@@ -71,10 +71,28 @@
         </header>
         <div class="events-list row">
 
-          {{ range first 6 (.Site.GetPage "section" "events").Pages.ByPublishDate.Reverse }}
-          <div class="col-xl-4 col-lg-6 col-md-6 mb-4">
-          {{ .Render "events-box"}}
-          </div>
+          {{ if in .Params.events "Workshop" }}
+            {{ range (.Site.GetPage "events" "workshop").Pages.ByPublishDate.Reverse }}
+            <div class="col-xl-4 col-lg-6 col-md-6 mb-4">
+            {{ .Render "events-box"}}
+            </div>
+            {{ end }}
+          {{ end }}
+
+          {{ if in .Params.events "Meetup" }}
+            {{ range (.Site.GetPage "events" "meetup").Pages.ByPublishDate.Reverse }}
+            <div class="col-xl-4 col-lg-6 col-md-6 mb-4">
+            {{ .Render "events-box"}}
+            </div>
+            {{ end }}
+          {{ end }}
+
+          {{ if in .Params.events "AMA" }}
+            {{ range (.Site.GetPage "events" "ama").Pages.ByPublishDate.Reverse }}
+            <div class="col-xl-4 col-lg-6 col-md-6 mb-4">
+            {{ .Render "events-box"}}
+            </div>
+            {{ end }}
           {{ end }}
 
         </div>
