@@ -102,10 +102,12 @@
         </header>
         <div class="events-list row">
 
-          {{ range first 6 (.Site.GetPage "section" "events-completed").Pages.ByPublishDate.Reverse }}
-          <div class="col-xl-4 col-lg-6 col-md-6 mb-4">
-          {{ .Render "events-complited-box"}}
-          </div>
+          {{ if .Description := Workshop }}
+            {{ range (.Site.GetPage "completedEvents" "completedworkshop").Pages.ByPublishDate.Reverse }}
+            <div class="col-xl-4 col-lg-6 col-md-6 mb-4">
+            {{ .Render "events-complited-box"}}
+            </div>
+            {{ end }}
           {{ end }}
 
         </div>
