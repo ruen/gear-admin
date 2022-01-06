@@ -186,7 +186,7 @@ h5 {
 .plus-icon {
 	display: inline-block;
 	padding-left: 25px;
-	background: url(../images/plus-icon.svg) no-repeat 0 50%;
+	background: url(/img/plus-icon.svg) no-repeat 0 50%;
 	background-size: 14px auto;
 }
 
@@ -271,7 +271,7 @@ h5 {
 	border: none;
 	position: absolute;
 	top: 50%; right: 0;
-	background: url(../images/menu-drop-arrow.svg) no-repeat 100% 50%;
+	background: url(/img/menu-drop-arrow.svg) no-repeat 100% 50%;
 	background-size: cover;
 	transform: translateY(-50%);
 }
@@ -332,7 +332,7 @@ h5 {
 	padding: 70px 0;
 	position: relative;
 	z-index: 2;
-	background: url(../images/top-section-bg.jpg) no-repeat 50% 50%;
+	background: url(/img/top-section-bg.jpg) no-repeat 50% 50%;
 	background-size: 1280px auto;
 }
 
@@ -343,7 +343,7 @@ h5 {
 	display: block;
 	position: absolute;
 	bottom: 0; left: 0;
-	background: url(../images/line-bg.png) no-repeat 50% 0;
+	background: url(/img/line-bg.png) no-repeat 50% 0;
 	background-size: 1280px auto;
 }
 
@@ -419,7 +419,7 @@ header p {
 	position: absolute;
 	bottom: 0; left: 50%;
 	pointer-events: none;
-	background: url(../images/video-shadow.png) no-repeat;
+	background: url(/img/video-shadow.png) no-repeat;
 	background-size: cover;
 	transform: translateX(-50%);
 }
@@ -485,7 +485,7 @@ header p {
 .arrow {
 	width: 8px;
 	height: 165px;
-	background: url(../images/vertical-arrow.png) no-repeat;
+	background: url(/img/vertical-arrow.png) no-repeat;
 	background-size: cover;
 }
 
@@ -497,7 +497,7 @@ header p {
 	padding: 570px 0 615px;
 	margin: -600px 0 -625px;
 	position: relative;
-	background: url(../images/line-bg.png) no-repeat 50% 0;
+	background: url(/img/line-bg.png) no-repeat 50% 0;
 	background-size: 1280px auto;
 }
 
@@ -536,12 +536,12 @@ header p {
 }
 
 .slick-prev {
-	background: url(../images/carousel-prev-btn.svg) no-repeat 50%;
+	background: url(/img/carousel-prev-btn.svg) no-repeat 50%;
 	background-size: 22px auto;
 }
 
 .slick-next {
-	background: url(../images/carousel-next-btn.svg) no-repeat 50%;
+	background: url(/img/carousel-next-btn.svg) no-repeat 50%;
 	background-size: 22px auto;
 }
 
@@ -651,7 +651,7 @@ header p {
 	line-height: 24px;
 	padding-left: 30px;
 	opacity: .56;
-	background: url(../images/event-icon.svg) no-repeat -2px 0;
+	background: url(/img/event-icon.svg) no-repeat -2px 0;
 	background-size: auto 24px;
 }
 
@@ -677,7 +677,7 @@ header p {
 	position: relative;
 	z-index: 1;
 	padding: 140px 0 65px;
-	background: url(../images/line-bg.png) no-repeat 50% calc(50% + 280px);
+	background: url(/img/line-bg.png) no-repeat 50% calc(50% + 280px);
 	background-size: 1280px auto;
 }
 
@@ -818,7 +818,7 @@ header p {
 
 .community-section {
 	padding-bottom: 155px;
-	background: url(../images/line-bg.png) no-repeat 50% 90px;
+	background: url(/img/line-bg.png) no-repeat 50% 90px;
 	background-size: 1280px auto;
 }
 
@@ -941,7 +941,7 @@ header p {
 	margin-bottom: 65px;
 	position: relative;
 	/* overflow: hidden; */
-	/* background: url(../images/top-banner-bg.jpg) no-repeat 50% 0;
+	/* background: url(/img/top-banner-bg.jpg) no-repeat 50% 0;
 	background-size: cover; */
 }
 
@@ -1097,17 +1097,17 @@ header p {
 }
 
 .event-info-list li.icon-1 {
-	background: url(../images/event-icon-1.svg) no-repeat 0 0;
+	background: url(/img/event-icon-1.svg) no-repeat 0 0;
 	background-size: 32px auto;
 }
 
 .event-info-list li.icon-2 {
-	background: url(../images/event-icon-2.svg) no-repeat 0 0;
+	background: url(/img/event-icon-2.svg) no-repeat 0 0;
 	background-size: 32px auto;
 }
 
 .event-info-list li.icon-3 {
-	background: url(../images/event-icon-3.svg) no-repeat 0 0;
+	background: url(/img/event-icon-3.svg) no-repeat 0 0;
 	background-size: 32px auto;
 }
 
@@ -1193,7 +1193,7 @@ header p {
 
 .header-title {
 	padding: 65px 0 70px;
-	background: #1A1A1A url(../images/header-title.jpg) no-repeat 50% 0;
+	background: #1A1A1A url(/img/header-title.jpg) no-repeat 50% 0;
 	background-size: auto 100%;
 }
 
@@ -1275,7 +1275,7 @@ header p {
 
 .news-tabs-section {
 	padding: 55px 0;
-	background: url(../images/line-bg.png) no-repeat 50% 50%, url(../images/top-section-bg.jpg) no-repeat 50% 50%;
+	background: url(/img/line-bg.png) no-repeat 50% 50%, url(/img/top-section-bg.jpg) no-repeat 50% 50%;
 	background-size: 1280px auto, 1280px auto;
 	background-position: 50% 0, 50% -70px;
 }
@@ -1331,7 +1331,7 @@ header p {
 	display: block;
 	position: absolute;
 	top: 50%; right: 66px;
-	background: url(../images/medium-banner-image.png) no-repeat;
+	background: url(/img/medium-banner-image.png) no-repeat;
 	background-size: cover;
 	transform: translateY(-50%);
 }
@@ -1352,7 +1352,7 @@ header p {
 .profile-info-block {
 	padding: 80px 0 45px 0;
 	position: relative;
-	background: url(../images/team-section-bg.jpg) no-repeat 50% 0;
+	background: url(/img/team-section-bg.jpg) no-repeat 50% 0;
 	background-size: 1280px auto;
 }
 
@@ -1364,7 +1364,7 @@ header p {
 	position: absolute;
 	bottom: 0; left: 50%;
 	transform: translateX(-50%);
-	background: url(../images/line-bg-2.png) no-repeat 50% 0;
+	background: url(/img/line-bg-2.png) no-repeat 50% 0;
 	background-size: 1280px auto;
 }
 
@@ -1469,7 +1469,7 @@ header p {
 
 .team-list-block {
 	padding: 80px 0 40px;
-	background: url(../images/team-section-bg.jpg) no-repeat 50% 0;
+	background: url(/img/team-section-bg.jpg) no-repeat 50% 0;
 	background-size: 1280px auto;
 }
 
@@ -1540,7 +1540,7 @@ header p {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: url(../images/gears-pattern.jpg) no-repeat 50%;
+	background: url(/img/gears-pattern.jpg) no-repeat 50%;
 	background-size: 1280px auto;
 }
 
@@ -1979,7 +1979,7 @@ header p {
 	}
 
 	.header-section .navbar-dark .navbar-toggler-icon {
-		background: url(../images/menu-burger.svg) no-repeat 50%;
+		background: url(/img/menu-burger.svg) no-repeat 50%;
 		background-size: 100% auto;
 	}
 
@@ -2535,7 +2535,7 @@ header p {
 
 	.community-section {
 		padding: 60px 0 80px;
-		background: url(../images/line-bg.png) no-repeat 50% -520px;
+		background: url(/img/line-bg.png) no-repeat 50% -520px;
 	}
 
 	.community-section .subscribe-box {
@@ -2712,7 +2712,7 @@ header p {
 		height: 3000px;
 		bottom: auto; top: -155px;
 		pointer-events: none;
-		background: url(../images/line-bg.png) no-repeat 50% 0;
+		background: url(/img/line-bg.png) no-repeat 50% 0;
 		background-size: cover;
 	}
 
