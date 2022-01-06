@@ -110,6 +110,22 @@
 						{{ end }}
           {{ end }}
 
+          {{ if in .Params.completedEvents "CompletedMeetup" }}
+            {{ range (.Site.GetPage "completedEvents" "completedmeetup").Pages.ByPublishDate.Reverse }}
+            <div class="col-xl-4 col-lg-6 col-md-6 mb-4">
+            {{ .Render "events-complited-box"}}
+            </div>
+            {{ end }}
+          {{ end }}
+
+          {{ if in .Params.completedEvents "CompletedAMA" }}
+            {{ range (.Site.GetPage "completedEvents" "completedama").Pages.ByPublishDate.Reverse }}
+            <div class="col-xl-4 col-lg-6 col-md-6 mb-4">
+            {{ .Render "events-complited-box"}}
+            </div>
+            {{ end }}
+          {{ end }}
+
         </div>
       </div>
 
