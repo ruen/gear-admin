@@ -5,10 +5,11 @@ values:
     one of colonialism and mindless abuse of natural resources and human lives.
     We want to turn this around and return the coffee trade to the drink’s
     exhilarating, empowering and unifying nature.
-title: Computational Component of Polkadot Network
-subtitle: Gear is an advanced WASM based smart contract platform, aiming to be a
-  Polkadot and Kusama parachain, that enables developers to deploy their dApps
-  in under 5 minutes in the easiest and most efficient way possible.
+banner:
+  title: Computational Component of Polkadot Network
+  subtitle: Gear is an advanced WASM based smart contract platform, aiming to be a
+    Polkadot and Kusama parachain, that enables developers to deploy their dApps
+    in under 5 minutes in the easiest and most efficient way possible.
 about:
   heading: What is Gear?
   text: Gear is a network that makes deploying on Polkadot as easy & efficient as
@@ -79,6 +80,10 @@ text: >-
 
 
   Gear makes deploying your dApps cheap, fast and efficient.
+subtitle: Gear is an advanced WASM based smart contract platform, aiming to be a
+  Polkadot and Kusama parachain, that enables developers to deploy their dApps
+  in under 5 minutes in the easiest and most efficient way possible.
+title: Computational Component of Polkadot Network
 blurb:
   heading: Why Kaldi?
   text: Kaldi is the coffee store for everyone who believes that great coffee
