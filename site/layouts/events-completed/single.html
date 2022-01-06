@@ -11,9 +11,11 @@
         <div class="info col-xl-6 col-lg-6 col-md-6">
           <h3>{{.Title}}</h3>
           <div class="buttons-line d-flex align-items-center">
-            <a href="{{ .Params.link }}" class="btn btn-light btn-sm anchor">
-              {{ .Params.linkText }}
-            </a>
+            {{ if .Params.linkText }}
+              <a href="{{ .Params.link }}" class="btn btn-light btn-sm anchor">
+                {{ .Params.linkText }}
+              </a>
+            {{ end }}
             <div class="social-links">
               <a href="https://twitter.com/gear_techs" target="_blank" class="social-link">
                 <img src="img/social-icon-1.svg" alt="">
