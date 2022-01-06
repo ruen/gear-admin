@@ -163,8 +163,9 @@ collections:
         label: "Home Page"
         name: "home"
         fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Subtitle, name: subtitle, widget: string}
+          - {label: "Top banner", name: banner, widget: object, fields: [
+              {label: "Title", name: "title", widget: string},
+              {label: "Subtitle", name: "subtitle", widget: "text"}]}
           - {label: "About", name: about, widget: object, fields: [
               {label: "Heading", name: "heading", widget: string},
               {label: "Text", name: "text", widget: "text"}]}

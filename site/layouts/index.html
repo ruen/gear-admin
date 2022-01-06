@@ -1,17 +1,17 @@
 {{ define "main" }}
 
-{{ partial "top-banner" . }}
+    {{ partial "top-banner" .Params.banner }}
 
-{{ partial "carousel" . }}
+    {{ partial "carousel" . }}
 
-{{ partial "about" .Params.about}}
+    {{ partial "about" .Params.about}}
 
-{{ partial "easy-develop" .Params }}
+    {{ partial "easy-develop" .Params }}
 
-{{ partial "easy-scale" .Params.scale}}
+    {{ partial "easy-scale" .Params.scale}}
 
-{{ partial "use-cases" .Params.cases}}
+    {{ partial "use-cases" .Params.cases}}
 
-{{ partial "community" .Params.community}}
+    {{ partial "community" .Params.community}}
 
 {{ end }}
