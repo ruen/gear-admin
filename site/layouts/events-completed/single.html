@@ -108,7 +108,7 @@
           </div>
           {{ end }}
 
-          {{ if (eq .Description workshop) }}
+          {{ if in .Params.completedEvents "CompletedWorkshop" }}
           1
           {{ else }}
           2
