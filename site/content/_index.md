@@ -7,7 +7,9 @@ values:
     exhilarating, empowering and unifying nature.
 banner:
   title: Computational Component of Polkadot Network
-  subtitle: ""
+  subtitle: Gear is an advanced WASM based smart contract platform, aiming to be a
+    Polkadot and Kusama parachain, that enables developers to deploy their dApps
+    in under 5 minutes in the easiest and most efficient way possible
 about:
   heading: What is Gear?
   text: Gear is a network that makes deploying on Polkadot as easy & efficient as
